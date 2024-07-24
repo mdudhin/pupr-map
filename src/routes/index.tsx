@@ -1,4 +1,5 @@
-import Home from "../features/home";
+import DetailPage from "../features/detail";
+import HomePage from "../features/home";
 import Layout from "../layout";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -9,7 +10,11 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <HomePage />,
+      },
+      {
+        path: "detail/:id",
+        element: <DetailPage />,
       },
     ],
   },

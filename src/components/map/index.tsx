@@ -5,6 +5,7 @@ import {
   Marker,
   Popup,
   TileLayer,
+  useMap,
   useMapEvents,
 } from "react-leaflet";
 import React, { ReactNode } from "react";
@@ -46,6 +47,8 @@ const LocationMarker: React.FC<{
   onMarkerClick: (position: LatLng) => void;
   addMarker: (position: LatLng) => void;
 }> = ({ markers, onMarkerClick, addMarker }) => {
+  const map = useMap();
+
   useMapEvents({
     click(e) {
       addMarker(e.latlng);
@@ -59,7 +62,12 @@ const LocationMarker: React.FC<{
           key={idx}
           position={position}
           icon={customIcon}
-          eventHandlers={{ click: () => onMarkerClick(position) }}
+          eventHandlers={{
+            click: () => {
+              onMarkerClick(position);
+              map.flyTo(position, 12);
+            },
+          }}
         >
           <Popup>{position.component}</Popup>
         </Marker>
