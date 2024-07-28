@@ -6,17 +6,26 @@ import { useState } from "react";
 const markersData = [
   {
     id: 1,
-    lat: -4.108152,
-    lng: 102.9741971,
+    lat: -4.158,
+    lng: 103.239,
     title: "Daerah Irigasi Lematang",
     imageUrl:
       "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    description:
-      "Daerah irigasi lematang merupakan areal persawahan yang berada disebelah kiri aliran Sungai Lematang dengan luas baku 3.000 ha, yang terdiri dari ± 754 ha (fungsional) sawah tadah hujan sedangkan selebihnya ± 2.246 ha (potensial) berupa semak belukar dan kebun kopi.",
-    damLocation:
-      "Desa Semidang Alas, Kecamatan Dempo Tengah, Kota Pagaralam, Provinsi Sumatera Selatan",
-    networkLocation: "Desa Tepus, Saripaya, Jokoh, Plang Kenidai dan Selabang",
-    mileage: "Dari kota Palembang 281,9 KM (8 Jam Pejalanan)",
+  },
+  {
+    id: 2,
+    lat: -4.305,
+    lng: 104.382,
+    title: "Daerah Irigasi Komering",
+    imageUrl: "https://sumsel.news/wp-content/uploads/2021/09/dikeringkan.jpg",
+  },
+  {
+    id: 3,
+    lat: -4.629415,
+    lng: 103.876438,
+    title: "Bendungan Tiga Dihaji",
+    imageUrl:
+      "https://tender-indonesia.com/newsrectory/events/29.proyek-pembangunan-bendungan-tiga-dihaji.jpg",
   },
   // Add more marker data objects as needed
 ];
@@ -52,15 +61,13 @@ const HomePage = () => {
   };
 
   return (
-    <div>
-      <InteractiveMap
-        center={{ lat: -3.3194, lng: 104.9147 }}
-        zoom={8}
-        // onMarkerClick={handleMarkerClick}
-        // addMarker={addMarker}
-        markers={markers}
-      />
-    </div>
+    <InteractiveMap
+      center={{ lat: -3.3194, lng: 104.9147 }}
+      zoom={8}
+      // onMarkerClick={handleMarkerClick}
+      // addMarker={addMarker}
+      markers={markers}
+    />
   );
 };
 

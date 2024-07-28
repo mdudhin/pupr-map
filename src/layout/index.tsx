@@ -1,11 +1,20 @@
+import { Outlet, useLocation } from "react-router-dom";
+
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import { Outlet } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const LayoutUser = () => {
+  const location = useLocation();
+  const { pathname } = location;
+  console.log(location);
+
   return (
-    <div className="flex flex-col w-full min-h-screen">
+    <div
+      className={`flex flex-col w-full ${
+        pathname === "/" ? "overflow-hidden" : ""
+      } h-screen`}
+    >
       <Navbar
         shadow="shadow-lg"
         maxWidth="w-full"
@@ -13,10 +22,10 @@ const LayoutUser = () => {
         logoText="Direktorat Jendral Sumber Daya Air"
         linksPosition="center"
       />
-      <div className="flex-grow z-0">
+      <div className="flex-grow">
         <Outlet />
       </div>
-      <Footer />
+      {pathname !== "/" && <Footer />}
     </div>
   );
 };

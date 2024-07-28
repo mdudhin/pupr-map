@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({
   logoText = "",
   links,
   linksPosition = "left",
-  position = "sticky",
+  position,
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -46,7 +46,11 @@ const Navbar: React.FC<NavbarProps> = ({
       : "sticky top-0 z-50";
 
   return (
-    <nav className={`${backgroundColor} ${shadow} ${positionClass}`}>
+    <nav
+      className={`${backgroundColor} ${shadow} ${
+        position ? positionClass : ""
+      }`}
+    >
       <div className={`w-full ${maxWidth} mx-auto px-4`}>
         <div className="flex justify-between h-14 items-center">
           {logoIcon && (
