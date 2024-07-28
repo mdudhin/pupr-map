@@ -37,7 +37,7 @@ const WorkDetail = () => {
     //   </div>
     // </div>
     <div
-      className="bg-gray-50 p-6 rounded-sm"
+      className="bg-gray-50 p-6 rounded-sm min-h-screen"
       dangerouslySetInnerHTML={{ __html: data() }}
     />
   );
