@@ -57,7 +57,7 @@ const HomePage = () => {
   }));
 
   const handleDetail = (marker: any) => {
-    navigate(`/detail/${marker.id}`);
+    navigate(`/visiting-point/detail/${marker.id}`);
   };
 
   return (

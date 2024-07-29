@@ -12,7 +12,7 @@ const LayoutUser = () => {
   return (
     <div
       className={`flex flex-col w-full ${
-        pathname === "/" ? "overflow-hidden" : ""
+        pathname === "/visiting-point" ? "overflow-hidden" : ""
       } h-screen`}
     >
       <Navbar
@@ -25,7 +25,7 @@ const LayoutUser = () => {
       <div className="flex-grow">
         <Outlet />
       </div>
-      {pathname !== "/" && <Footer />}
+      {pathname !== "/visiting-point" && <Footer />}
     </div>
   );
 };
