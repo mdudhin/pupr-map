@@ -7,17 +7,10 @@ const Footer: React.FC = () => {
 
   const leftColumns = [
     {
-      title: "About Us",
+      title: "Dikelola Oleh",
       items: [
         {
-          content: (
-            <p className="w-96">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
-              ratione obcaecati molestiae vitae consequatur est exercitationem
-              sapiente, aspernatur laborum ipsum incidunt fuga, sed rem. Sunt
-              debitis aliquam dignissimos suscipit aspernatur.
-            </p>
-          ),
+          content: <p className="w-96">UNIT SISDA BBWS SUMATERA VIII</p>,
         },
       ],
     },
@@ -30,19 +23,19 @@ const Footer: React.FC = () => {
         {
           content: (
             <p className="w-72">
-              Jl. Kapten A. Rivai No.1251, Sungai Pangeran, Kec. Ilir Tim. I,
-              Kota Palembang, Sumatera Selatan 30127
+              Jl. Soekarno Hatta No.869, Talang Klp., Kec. Alang-Alang Lebar,
+              Kota Palembang, Sumatera Selatan 30153
             </p>
           ),
         },
-        { content: <p>Phone: {`(0711) 312272`}</p> },
+        { content: <p>Phone: {`(0711) 414019`}</p> },
       ],
     },
     {
       title: "Privacy & Security",
       items: [
-        { content: <a href="/terms-of-service">Privacy Policy</a> },
-        { content: <a href="/contact-us">Copyright Notice</a> },
+        { content: <a>Privacy Policy</a> },
+        { content: <a>Copyright Notice</a> },
       ],
     },
   ];

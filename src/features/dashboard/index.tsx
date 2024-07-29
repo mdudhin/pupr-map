@@ -15,8 +15,10 @@ const Dashboard = () => {
         muted
       />
       <div className="relative z-10 flex flex-col items-center gap-4">
-        <h1 className="text-white font-bold text-5xl mb-20 text-center">
-          Command Center <br /> BBWS Sumatera VIII
+        <img src={logo} className="shadow-md rounded-md w-36" />
+        <h1 className="text-white font-bold text-5xl mb-20 text-center flex flex-col gap-2">
+          <span>Integrated Portal Center</span>
+          <span>BBWS Sumatera VIII</span>
         </h1>
         <div className="flex flex-row gap-9">
           <div
