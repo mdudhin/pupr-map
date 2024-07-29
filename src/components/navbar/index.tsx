@@ -57,7 +57,7 @@ const Navbar: React.FC<NavbarProps> = ({
             <Link to={"/"} className="flex items-center gap-2">
               {logoIcon}
               <div className="flex flex-col uppercase text-indigo">
-                <span className="text-sm">BBWS Sumatera VII</span>
+                <span className="text-sm">BBWS Sumatera VIII</span>
                 <span className="text-xs">
                   Kementerian Pekerjaan Umum dan Perumahan Rakyat
                 </span>
