@@ -19,7 +19,12 @@ const Dashboard = () => {
           Command Center <br /> BBWS Sumatera VIII
         </h1>
         <div className="flex flex-row gap-9">
-          <div className="flex flex-col items-center gap-1">
+          <div
+            className="flex flex-col items-center gap-1"
+            onClick={() => {
+              window.location.href = "https://pdsda.sda.pu.go.id/";
+            }}
+          >
             <img
               src={logo}
               className="shadow-md rounded-md w-16 cursor-pointer"
@@ -37,7 +42,12 @@ const Dashboard = () => {
               Visiting Point
             </span>
           </div>
-          <div className="flex flex-col items-center gap-1">
+          <div
+            className="flex flex-col items-center gap-1"
+            onClick={() => {
+              window.location.href = "https://bbwssumateraviii.co.id";
+            }}
+          >
             <img
               src={logo}
               className="shadow-md rounded-md w-16 cursor-pointer"
