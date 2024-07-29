@@ -8,6 +8,7 @@ const markersData = [
     id: 1,
     lat: -4.158,
     lng: 103.239,
+    type: "irigasi",
     title: "Daerah Irigasi Lematang",
     imageUrl:
       "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
@@ -16,6 +17,7 @@ const markersData = [
     id: 2,
     lat: -4.305,
     lng: 104.382,
+    type: "irigasi",
     title: "Daerah Irigasi Komering",
     imageUrl: "https://sumsel.news/wp-content/uploads/2021/09/dikeringkan.jpg",
   },
@@ -23,6 +25,7 @@ const markersData = [
     id: 3,
     lat: -4.629415,
     lng: 103.876438,
+    type: "bendungan",
     title: "Bendungan Tiga Dihaji",
     imageUrl:
       "https://tender-indonesia.com/newsrectory/events/29.proyek-pembangunan-bendungan-tiga-dihaji.jpg",
@@ -57,7 +60,7 @@ const HomePage = () => {
   }));
 
   const handleDetail = (marker: any) => {
-    navigate(`/visiting-point/detail/${marker.id}`);
+    navigate(`/visiting-point/detail/${marker.type}/${marker.id}`);
   };
 
   return (

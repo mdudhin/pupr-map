@@ -7,7 +7,7 @@ import WorkDetail from "./work-detail";
 const DetailPage = () => {
   const tabs = [
     {
-      trigger: <span>Detail Pekerjaan</span>,
+      trigger: <span>Deskripsi Proyek</span>,
       value: "workDetail",
       content: <WorkDetail />,
     },

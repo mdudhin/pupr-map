@@ -1,4 +1,4 @@
-export const mockData = {
+export const mockDataBendungan = {
   sections: [
     {
       title: "BENDUNGAN",
@@ -81,31 +81,31 @@ export const mockData = {
   paket: [
     {
       id: 1,
-      kontrak: "1.077.580.618.000,-",
+      kontrak: "Hutama Karya",
       ruang_lingkup:
         "Pekerjaan Persiapan, Bendungan Utama Kiri, Jetty dan Trashboom, Alat Penunjang OP, Soil Investigasi, dan Penanganan Alur Limbun.",
     },
     {
       id: 2,
-      kontrak: "1.345.921.604.000,-",
+      kontrak: "Waskita",
       ruang_lingkup:
         "Pekerjaan Persiapan, Bendungan Utama Kanan, dan Penyeldikan Lapangan Tambahan.",
     },
     {
       id: 3,
-      kontrak: "647.477.400.000,-",
+      kontrak: "Nindya Karya",
       ruang_lingkup:
         "Pekerjaan Persiapan, Jalan Masuk, Jalan Inspeksi dan Relokasi Jalan, Bangunan Pelimpah, Bangunan Fasilitas, Pekerjaan Lain-Lain.",
     },
     {
       id: 4,
-      kontrak: "690.714.005.000,-",
+      kontrak: "Wijaya Karya",
       ruang_lingkup:
         "Pekerjaan Persiapan, Bangunan Pengelak, Pekerjaan Drilling dan Grouting Bendungan, Bangunan Pengambilan, Hydromechanical and Electrical Works dan Pre-Grouting.",
     },
     {
       id: "SPV",
-      kontrak: "90.138.000.000,-",
+      kontrak: "Virama Karya",
       ruang_lingkup:
         "Kegiatan Supervisi Konstruksi, Biaya Langsung Personil & Non Personil",
     },
@@ -126,212 +126,211 @@ export const mockData = {
       { year: "Smt 1 2026", color: "bg-purple-500" },
     ],
   },
+  photo: [
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+  ],
+  video: [
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+  ],
 };
 
-export const mockData1 = `<p style="line-height: 1;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;"><strong>DAERAH IRIGASI
-LEMATANG</strong></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Daerah irigasi lematang
-merupakan areal persawahan yang berada disebelah kiri aliran Sungai Lematang dengan luas baku 3.000
-ha, yang terdiri dari ± 754 ha (fungsional) sawah tadah hujan sedangkan
-selebihnya ± 2.246 ha (potensial) berupa semak belukar dan kebun kopi.</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>A. PHASE&nbsp; I
-TH. 2015 - 2019</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">1) Bendung&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = 1 Bh</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">2) Saluran Induk&nbsp;
-(Flume Terbangun)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = 3.806,20
-m</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>B. PHASE II TH. 2021 - 2024</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>PAKET I</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;&nbsp; 1) Flume Sal.
-Primer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp;&nbsp; 5..491,00 M</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;&nbsp; 2) Talang
-Air&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 485,00 M (7 Bh)</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;&nbsp; 3) Bangunan
-Penguras&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7,00 Bh</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>PAKET II</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;&nbsp; 1)&nbsp; Sal. Sekunder (5 Lokasi)&nbsp; =&nbsp;
-34.430,00 M</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;&nbsp; 2)&nbsp; Bangunan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158,00 Bh</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;"><strong>Pembangunan
-Jaringan Irigasi D.I Lematang Kota Pagaralam Phase II Paket I (MYC)</strong></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>PROGRES S.D
-01 JULI 2024 - SYC</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Renc. Fisik : 74,34 %&nbsp;&nbsp;&nbsp; Renc Keu, : 49,60 %</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Rea. Fisik &nbsp; : 75,14 %&nbsp;&nbsp;&nbsp; Rea Keu. &nbsp;&nbsp; : 49,60 %</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 0,79% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 0,00%</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>PROGRES S.D
-01 JULI 2024 - MYC</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Renc. Fisik : 52,65%&nbsp;&nbsp;&nbsp;&nbsp; Renc Keu, : 52,45%</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Rea. Fisik &nbsp; : 54,62%&nbsp;&nbsp;&nbsp;&nbsp; Rea Keu. &nbsp;&nbsp; : 45,76%</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1,97% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : -6,88%</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong style="font-size: 18px;">Pembangunan Jaringan Irigasi D.I Lematang Kota
-Pagaralam Phase II Paket II (MYC)</strong></span></p>
-<p><img><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p class="MsoNormal"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Progres s.d 01 Juli 2024 - SYC</strong></span></p>
+export const mockDataIrigasiLematang = {
+  sections: [
+    {
+      title: "DAERAH IRIGASI LEMATANG",
+      items: [
+        { label: "Luas Baku", value: "3,000 ha" },
+        { label: "Fungsional", value: "754 ha" },
+        { label: "Potensial", value: "2,246 ha" },
+      ],
+    },
+  ],
+  phases: [
+    {
+      title: "PHASE I (2015 - 2019)",
+      paket: [
+        {
+          label: "Paket I",
+          details: [
+            { label: "Bendung", value: "1 Bh" },
+            {
+              label: "Saluran Induk (Flume Terbangun)",
+              value: "3,806.20 m",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "PHASE II (2021 - 2024)",
+      paket: [
+        {
+          label: "Paket I",
+          details: [
+            { label: "Flume Sal. Primer", value: "5,491.00 M" },
+            { label: "Talang Air", value: "485.00 M (7 Bh)" },
+            { label: "Bangunan Penguras", value: "700 Bh" },
+          ],
+        },
+        {
+          label: "Paket II",
+          details: [
+            { label: "Sal. Sekunder (5 Lokasi)", value: "34,430.00 M" },
+            { label: "Bangunan", value: "15,800 Bh" },
+          ],
+        },
+      ],
+    },
+  ],
+  photo: [
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+  ],
+  video: [
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+  ],
+};
 
-<p class="MsoNormal"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Renc. Fisik : 65,08%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Renc Keu, &nbsp; : 46,07%</span></p>
+const mockDataIrigasiKomering = {
+  sections: [
+    {
+      title: "KOMERING IRRIGATION PROJECT",
+      items: [
+        {
+          label: "Package 1",
+          value:
+            "Perjaya Headworks, Komering Main Canal, Lempuing Sec Canal (Sec-3), Lempuing Sub-Sec Canal and Tertiary Development (Block G and H), Telemetry System",
+        },
+        {
+          label: "Package 1 Status",
+          value:
+            "Repeated bid as only 1 Applicant passing the PQ, Status as of June 25 2024 in BP2JK for tendering",
+        },
+      ],
+    },
+  ],
+  phases: [
+    {
+      title: "PHASE I (2021 - 2024)",
+      paket: [
+        {
+          label: "Package 2",
+          details: [
+            {
+              label: "Description",
+              value:
+                "Belitang Secondary Canal (BB.0-BB.15), Lempuing Sec and Sub-Sec Canal and Tertiary Development (Block I and J)",
+            },
+            {
+              label: "Progress s.d 01 Juli 2024 - SYC",
+              value:
+                "Renc. Fisik: 33.995%, Renc. Keu: 0%, Rea. Fisik: 63.43%, Rea. Keu: 0%, Deviasi: -27.652%, Deviasi: 0%",
+            },
+            {
+              label: "Progress s.d 01 Juli 2024 - MYC",
+              value:
+                "Renc. Fisik: 64.61%, Renc. Keu: 15.00%, Rea. Fisik: 12.05%, Rea. Keu: 15.00%, Deviasi: -52.55%, Deviasi: 0%",
+            },
+          ],
+        },
+        {
+          label: "Package 3",
+          details: [
+            {
+              label: "Description",
+              value:
+                "Belitang Secondary Canal (BB.15-BB.25), Lempuing Sec and Sub-Sec Canal and Tertiary Development (Block K)",
+            },
+            {
+              label: "Progress s.d 01 Juli 2024 - SYC",
+              value:
+                "Renc. Fisik: 8.67%, Renc. Keu: 86.01%, Rea. Fisik: 3.03%, Rea. Keu: 86.01%, Deviasi: -5.65%, Deviasi: 0%",
+            },
+            {
+              label: "Progress s.d 01 Juli 2024 - MYC",
+              value:
+                "Renc. Fisik: 1.51%, Renc. Keu: 15.00%, Rea. Fisik: 0.53%, Rea. Keu: 15.00%, Deviasi: -0.98%, Deviasi: 0%",
+            },
+          ],
+        },
+        {
+          label: "Package 4",
+          details: [
+            { label: "Description", value: "Procurement of OM Equipment" },
+            {
+              label: "Package 4 Status",
+              value: "Penggadaan menggunakan E-Katalog (Menunggu Revisi DIPA)",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+  photo: [
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+  ],
+  video: [
+    {
+      thumbnail:
+        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    },
+  ],
+};
 
-<p class="MsoNormal"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Rea. Fisik &nbsp;&nbsp; : 67,72%&nbsp;&nbsp;&nbsp;&nbsp; Rea Keu. &nbsp;&nbsp;&nbsp; : 46,07%</span></p>
-
-<p class="MsoNormal"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 2,64% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 0,00%</span></p><p class="MsoNormal"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Progres s.d 01 Juli 2024 - MYC</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Renc. Fisik : 52,09%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Renc Keu, &nbsp; : 49,36%</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Rea. Fisik &nbsp;&nbsp; : 52.28%&nbsp;&nbsp;&nbsp;&nbsp; Rea Keu. &nbsp;&nbsp;&nbsp; : 49,36%</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 0,34% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deviasi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 0,00%</span></p>
-`;
-
-export const mockData3 = `<p><strong style="font-size: 18px;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;">BENDUNGAN
-TIGA DIHAJI</span></strong></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="font-size: 14px;">BENDUNGAN</strong></span></p>
-
- <ul style="list-style-type: circle;"><li><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tampungan
-     Bruto NWL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 142,76 Juta
-     m³ (+315,67 m)</span</li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tampungan Efektif&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 96,22 Juta
-     m³ (NWL-LWL)</span></li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tampungan Mati LWL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 46,54 Juta
-     m³ (+288,55 m)</span></li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Luas
-     genangan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 577,12Ha
-     (+320,00 m)</span></li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tipe
-     bendungan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Urugan Batu dengan Zonal Inti Tegak</span></li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tinggi
-     bendungan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 122,00 m</span></li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Elevasi puncak bendungan&nbsp;&nbsp;&nbsp; :
-     +323,67 m</span></li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Panjangpuncak bendungan&nbsp; :
-     950,00 m</span></li><li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lebar
-     puncak bendungan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :12,00 m</span></li></ul>
- 
- 
- 
- 
-
-
- 
- 
- 
- 
-
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;<br></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="font-size: 14px;">PENGELAK</strong></span></p>
-<ul>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tipe
-     Saluran Pengelak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : LingkaranSteel Lining</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Dimensi
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ø 7,00 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Panjang Trowongan&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 596,80 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Q Pengelak&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 910,7 m³/det (Q25)</span></li>
-</ul>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">&nbsp;<br></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="font-size: 14px;">PENGAMBILAN</strong></span></p>
-<ul>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tipe&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Intake Miring dengan Headrace Tunnel
-     &nbsp;Beton
-     dan Penstock Baja</span></li>
-</ul>
-<ul>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Elevasi
-     Dasar&nbsp; : +288,55 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tipe Pintu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
-     Sliding Gate</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Dimensi Pintu: 5 m X 5m</span></li>
-</ul>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Q Pengambilan: 37,40 m³/det</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="font-size: 14px;">PELIMPAH</strong></span></p>
-<ul>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tipe
-     Pelimpah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Side Spillway&nbsp; Frontal Ogee </span></li>
-</ul>
-<ul>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Elevasi
-     Puncak Mercu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : +315,67 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lebar
-     Bersih Pelimpah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 80,00 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tipe Pintu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Sliding Gate</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lebar Pintu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 4,5 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Panjang Saluran Peluncur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 751,50 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Lebar Saluran Peluncur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
-     35,00 m</span></li>
-</ul>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">PEREDAM ENERGI</span></p>
-<ul>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Tipe
-     Peredam Energi&nbsp; : Ski Jump</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Jari-Jari Bucket&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 30 m</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Elevasi Bucket &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : +198,00 m</span></li>
-</ul>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">HIDROLOGI</span></p>
-<ul>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Luas
-     DAS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1.158,20 &nbsp;km²</span></li>
- <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Q
-     1000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1.310,60 m³/det</span></li>
-</ul>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Q PMF&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 3.763,90 m³/det</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="font-size: 14px;">MANFAAT</strong></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">IRIGASI
-34.824 Ha</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">AIR
-BAKU 1 m³/det</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">REDUKSI
-BANJIR 39,5% Q50</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">LISTRIK
-4 x 10 MW</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">PARIWISATA</span></p><p><br></p><table style="border-collapse:collapse;width: 100%;"><tbody>
-<tr>
-	<td style="width: 3.76266%;"><br></td>
-	<td style="width: 35.3835%; text-align: center;">PAKET</td>
-	<td style="width: 60.7815%; text-align: center;"><span>RUANG LINGKUP
-PEKERJAAN</span><br></td></tr>
-<tr>
-	<td>1</td>
-	<td>HUTAMAKARYA</td>
-	<td><span>Pekerjaan Persiapan,
-Bendungan Utama Kiri, Jetty dan Trashboom,<span>&nbsp;
-</span>Alat Penunjang OP, Soil Investigasi, dan Penanganan Alur Limbun.</span><br></td></tr>
-<tr>
-	<td>2</td>
-	<td>WASKITA</td>
-	<td><p><span>Pekerjaan Persiapan, Bendungan
-Utama Kanan, dan Penyelidikan Lapangan Tambahan.</span></p><br></td></tr>
-<tr>
-	<td>3</td>
-	<td>NINDYA</td>
-	<td><p><span>Pekerjaan Persiapan, Jalan Masuk,
-Jalan Inspeksi dan Relokasi Jalan, Bangunan Pelimpah, Bangunan Fasilitas, Pekerjaan
-Lain-Lain.</span></p><br></td></tr>
-<tr>
-	<td>4</td>
-	<td>WIKA</td>
-	<td><p><span>Pekerjaan Persiapan, Bangunan
-Pengelak, Pekerjaan Drilling dan Grouting Bendungan, Bangunan Pengambilan,
-Hydromechanical and Electrical Works dan Pre-Grouting.</span></p><br></td></tr>
-<tr>
-	<td>5</td>
-	<td>VIRAMA KARYA</td>
-	<td><p><span>Kegiatan Supervisi Konstruksi.
-Biaya Langsung Personil &amp; Non Personil</span></p><br></td></tr></tbody></table>`;
-
-export const mockData2 = `<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;"><strong>DAERAH IRIGASI KOMERING</strong></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;"><strong><br></strong></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Package 1 Perjaya
-Headworks, Komering Main Canal, Lempuing Sec Canal (Sec-3), Lempuing Sub-Sec
-Canal and Tertiary Development (Block G and H) and Telemetry System</span></p><p><br></p><p><span style="font-family: Arial, Helvetica, sans-serif;"><strong>Project Status</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Package 1 :<span>&nbsp;
-</span>Repeated bid as only 1 Applicant passing the PQ , Project Status June,
-25, 2024 in BP2JK for tendering</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Package 2 : Belitang Secondary Canal (BB.0-BB.15),
-Lempuing Sec and Sub-Sec Canal and Tertiary Development (Block I and J)</span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><br></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Progres s.d 01 Juli 2024 - SYC</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Renc. Fisik : </span><span>33,995</span><span>%</span><span>Renc Keu, : 0,00%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Rea. Fisik </span><span><span>&nbsp; </span></span><span>: </span><span>6,343</span><span>%</span><span><span>&nbsp;&nbsp;&nbsp; </span></span><span>Rea Keu. </span><span><span>&nbsp;&nbsp; </span></span><span>: 0,00%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Deviasi </span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>-27,652</span><span>%</span><span> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Deviasi </span><span><span>&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: 0,00%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>&nbsp;</span><br></span></p>
-
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Progres s.d 01 Juli 2024 - MYC</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Renc. Fisik : </span><span>6,461</span><span>%</span><span><span>&nbsp;&nbsp; </span></span><span>Renc Keu, </span><span>: </span><span>15</span><span>,00%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Rea. Fisik </span><span><span>&nbsp; </span></span><span>: </span><span>1,205</span><span>%</span><span><span>&nbsp;&nbsp;&nbsp; </span></span><span>Rea Keu. </span><span><span>&nbsp;&nbsp; </span></span><span>: </span><span>15</span><span>,00%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Deviasi </span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>-5,255</span><span>%</span><span> <span>&nbsp; </span></span><span>Deviasi </span><span><span>&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: 0,00%</span></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span><br></span></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Package 3 : Belitang Secondary Canal (BB.15-BB.25), Lempuing Sec and Sub-Sec Canal and
-Tertiary Development (Block K); Sumatera Selatan; Kab. Ogan Komering Ilir; 4.43
-Km; 687.5 Hektar; F; K; MYC</span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong><span>&nbsp;</span></strong><br></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Progres s.d 01 Juli 2024 - SYC</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Renc. Fisik <span>&nbsp;&nbsp; </span>: </span><span>8,67
-</span><span>%</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Renc
-Keu, </span><span><span>&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>86,01
-</span><span>%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Rea. Fisik </span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>3,03
-</span><span>%</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Rea Keu.
-</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>86,01
-</span><span>%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Deviasi </span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>-5,65
-</span><span>%</span><span> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Deviasi </span><span><span>&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>0 </span><span>%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong><span>&nbsp;</span></strong><br></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Progres s.d 01 Juli 2024 - MYC</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Renc. Fisik<span>&nbsp;&nbsp;&nbsp; </span> : </span><span>1,51
-</span><span>%</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Renc
-Keu, </span><span><span>&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>15,00
-</span><span>%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Rea. Fisik </span><span><span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>0,53
-</span><span>%</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Rea Keu.
-</span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>15,00
-</span><span>%</span></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span>Deviasi </span><span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>-0,98 </span><span>%</span><span> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>Deviasi </span><span><span>&nbsp;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span>: </span><span>0 </span><span>%</span></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><span><br></span></span></p><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Package 4 Procurement of OM Equipment</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Project Status</strong></span></p>
-<p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Package 4 :<span>&nbsp;
-</span>Penggadaan menggunakan E-Katalog (Menunggu Revisi DIPA)</span></p>`;
+export const getMockData = (id: string) => {
+  if (id === "1") {
+    return mockDataIrigasiLematang;
+  } else if (id === "2") {
+    return mockDataIrigasiKomering;
+  } else {
+    return mockDataBendungan;
+  }
+};
