@@ -1,7 +1,10 @@
 import React from "react";
 import bg from "../../assets/bg.mp4";
+import hidrologi from "../../assets/E_HIDROLOGI.png";
 import logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
+import visitingPoint from "../../assets/VISITING_POINT.png";
+import wrdc from "../../assets/WRDC.png";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -28,7 +31,7 @@ const Dashboard = () => {
             }}
           >
             <img
-              src={logo}
+              src={wrdc}
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-16 text-center text-xs">
@@ -39,7 +42,7 @@ const Dashboard = () => {
             className="flex flex-col items-center gap-1 cursor-pointer"
             onClick={() => navigate("/visiting-point")}
           >
-            <img src={logo} className="shadow-md rounded-md w-16 " />
+            <img src={visitingPoint} className="shadow-md rounded-md w-16 " />
             <span className="text-white font-semibold w-16 text-center text-xs">
               Visiting Point
             </span>
@@ -51,14 +54,14 @@ const Dashboard = () => {
             }}
           >
             <img
-              src={logo}
+              src={hidrologi}
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-17 text-center text-xs">
               E Hidrologi
             </span>
           </div>
-          <div className="flex flex-col items-center gap-1">
+          {/* <div className="flex flex-col items-center gap-1">
             <img
               src={logo}
               className="shadow-md rounded-md w-16 cursor-pointer"
@@ -75,7 +78,7 @@ const Dashboard = () => {
             <span className="text-white font-semibold w-16 text-center text-xs">
               IGT
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

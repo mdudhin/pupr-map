@@ -1,3 +1,5 @@
-declare module "userManagement/user-management";
-declare module "bussinessParam/bussiness-param";
-declare module "userManagement/role-management";
+declare module "*.jpg";
+declare module "*.jpeg";
+declare module "*.png";
+declare module "*.gif";
+declare module "*.svg";

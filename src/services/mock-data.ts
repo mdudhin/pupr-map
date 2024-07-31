@@ -1,3 +1,24 @@
+import bendungan1 from "../assets/bendungan/_DSC0124.jpg";
+import bendungan2 from "../assets/bendungan/_DSC0143.jpg";
+import bendungan3 from "../assets/bendungan/_DSC0151.jpg";
+import bendungan4 from "../assets/bendungan/_DSC0153.jpg";
+import bendungan5 from "../assets/bendungan/_DSC0161.jpg";
+import bendungan6 from "../assets/bendungan/_DSC0165.jpg";
+import bendungan7 from "../assets/bendungan/_DSC0174.jpg";
+import bendungan8 from "../assets/bendungan/_DSC0177.jpg";
+import irigasiKomering1 from "../assets/irigasiKomering/photo1.jpg";
+import irigasiKomering2 from "../assets/irigasiKomering/photo2.jpg";
+import irigasiKomering3 from "../assets/irigasiKomering/photo3.jpg";
+import irigasiKomering4 from "../assets/irigasiKomering/photo4.jpg";
+import irigasiLematang1 from "../assets/irigasiLematang/photo1.jpg";
+import irigasiLematang2 from "../assets/irigasiLematang/photo2.jpg";
+import irigasiLematang3 from "../assets/irigasiLematang/photo3.jpg";
+import irigasiLematang4 from "../assets/irigasiLematang/photo4.jpg";
+import irigasiLematang5 from "../assets/irigasiLematang/photo5.jpg";
+import irigasiLematang6 from "../assets/irigasiLematang/photo6.jpg";
+import irigasiLematang7 from "../assets/irigasiLematang/photo7.jpg";
+import irigasiLematang8 from "../assets/irigasiLematang/photo8.jpg";
+
 export const mockDataBendungan = {
   sections: [
     {
@@ -127,42 +148,38 @@ export const mockDataBendungan = {
     ],
   },
   photo: [
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    bendungan1,
+    bendungan2,
+    bendungan3,
+    bendungan4,
+    bendungan5,
+    bendungan6,
+    bendungan7,
+    bendungan8,
   ],
   video: [
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: bendungan1,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: bendungan2,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: bendungan3,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: bendungan4,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: bendungan5,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: bendungan6,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
   ],
@@ -217,23 +234,24 @@ export const mockDataIrigasiLematang = {
     },
   ],
   photo: [
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    irigasiLematang1,
+    irigasiLematang2,
+    irigasiLematang3,
+    irigasiLematang4,
+    irigasiLematang5,
+    irigasiLematang6,
+    irigasiLematang7,
+    irigasiLematang8,
   ],
   video: [
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: irigasiLematang1,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
   ],
 };
 
-const mockDataIrigasiKomering = {
+export const mockDataIrigasiKomering = {
   sections: [
     {
       title: "KOMERING IRRIGATION PROJECT",
@@ -309,17 +327,14 @@ const mockDataIrigasiKomering = {
     },
   ],
   photo: [
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
-    "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+    irigasiKomering1,
+    irigasiKomering2,
+    irigasiKomering3,
+    irigasiKomering4,
   ],
   video: [
     {
-      thumbnail:
-        "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      thumbnail: irigasiKomering1,
       url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
     },
   ],
