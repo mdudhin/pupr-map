@@ -12,6 +12,7 @@ interface DataOption {
 interface Video {
   thumbnail: string;
   url: string;
+  title: string;
 }
 
 interface MediaData {
@@ -21,17 +22,28 @@ interface MediaData {
 
 interface PhotoComponentProps {
   data: string[];
+  onImageClick: (src: string) => void;
 }
 
 interface VideoComponentProps {
   data: Video[];
 }
 
-const PhotoComponent: React.FC<PhotoComponentProps> = ({ data }) => {
+const PhotoComponent: React.FC<PhotoComponentProps> = ({
+  data,
+  onImageClick,
+}) => {
   return (
-    <div className="flex flex-row flex-wrap gap-5 justify-between">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {data.map((item, index) => (
-        <img key={index} src={item} className="w-96 rounded-sm" alt="Photo" />
+        <div key={index} className="flex justify-center">
+          <img
+            src={item}
+            className="w-full h-auto rounded-md shadow-md cursor-pointer"
+            alt={`Photo ${index}`}
+            onClick={() => onImageClick(item)}
+          />
+        </div>
       ))}
     </div>
   );
@@ -41,14 +53,25 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ data }) => {
   const navigateToUrl = (url: string) => {
     window.location.href = url;
   };
+
   return (
-    <div className="flex flex-row flex-wrap gap-5 justify-between">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {data.map((item, index) => (
-        <img
-          src={item.thumbnail}
-          className="w-96 rounded-sm cursor-pointer"
-          onClick={() => navigateToUrl(item.url)}
-        />
+        <div
+          key={index}
+          className="flex justify-center flex-col bg-white rounded-md cursor-pointer shadow-md"
+        >
+          <img
+            key={index}
+            src={item.thumbnail}
+            className="w-full h-auto rounded-t-md  "
+            alt={`Photo ${index}`}
+            onClick={() => navigateToUrl(item.url)}
+          />
+          <div className="p-3">
+            <label className="">{item.title}</label>
+          </div>
+        </div>
       ))}
     </div>
   );
@@ -63,11 +86,20 @@ export const Documentation: React.FC = () => {
 
   const [selectedValue, setSelectedValue] = useState<string>("photo");
   const [data, setData] = useState<MediaData | null>(null);
+  const [fullScreenImage, setFullScreenImage] = useState<string | null>(null);
 
   const handleSelectChange = (event: {
     target: { value: any; name: string };
   }) => {
     setSelectedValue(event.target.value);
+  };
+
+  const handleImageClick = (src: string) => {
+    setFullScreenImage(src);
+  };
+
+  const handleFullScreenClose = () => {
+    setFullScreenImage(null);
   };
 
   useEffect(() => {
@@ -82,7 +114,7 @@ export const Documentation: React.FC = () => {
   const { photo, video } = data;
 
   return (
-    <div className="flex flex-col bg-gray-50 p-6 rounded-sm min-h-screen gap-5">
+    <div className="relative flex flex-col bg-gray-50 p-6 rounded-sm min-h-screen gap-5">
       <DropdownSelect
         className="w-[300px]"
         data={dataSelect}
@@ -93,8 +125,25 @@ export const Documentation: React.FC = () => {
         onChange={handleSelectChange}
       />
 
-      {selectedValue === "photo" && <PhotoComponent data={photo} />}
+      {selectedValue === "photo" && (
+        <PhotoComponent data={photo} onImageClick={handleImageClick} />
+      )}
       {selectedValue === "video" && <VideoComponent data={video} />}
+
+      {fullScreenImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+          onClick={handleFullScreenClose}
+        >
+          <img
+            src={fullScreenImage}
+            className="max-w-full max-h-full"
+            alt="Full Screen"
+          />
+        </div>
+      )}
     </div>
   );
 };
+
+export default Documentation;
