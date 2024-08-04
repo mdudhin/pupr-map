@@ -61,7 +61,7 @@ const Dashboard = () => {
               E Hidrologi
             </span>
           </div>
-          {/* <div className="flex flex-col items-center gap-1">
+          <div className="flex flex-col items-center gap-1">
             <img
               src={logo}
               className="shadow-md rounded-md w-16 cursor-pointer"
@@ -70,15 +70,18 @@ const Dashboard = () => {
               Early Warning System
             </span>
           </div>
-          <div className="flex flex-col items-center gap-1">
+          <div
+            className="flex flex-col items-center gap-1"
+            onClick={() => navigate("/visiting-point/gallery")}
+          >
             <img
               src={logo}
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-16 text-center text-xs">
-              IGT
+              Gallery
             </span>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
