@@ -436,18 +436,22 @@ const photoGallery = [
   {
     url: irigasiKomering1,
     description: "Photo Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: irigasiKomering2,
     description: "Photo Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: irigasiKomering3,
     description: "Photo Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: irigasiKomering4,
     description: "Photo Desc",
+    date: "6 Agustus 2024",
   },
 ];
 
@@ -455,32 +459,38 @@ const videoGallery = [
   {
     thumbnail: bendungan1,
     url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan 31 Juli 2024",
+    title: "Video kegiatan pekerjaan",
+    date: "6 Agustus 2024",
   },
   {
     thumbnail: bendungan2,
     url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan 31 Juli 2024",
+    title: "Video kegiatan pekerjaan",
+    date: "6 Agustus 2024",
   },
   {
     thumbnail: bendungan3,
     url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan 31 Juli 2024",
+    title: "Video kegiatan pekerjaan",
+    date: "6 Agustus 2024",
   },
   {
     thumbnail: bendungan4,
     url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan 31 Juli 2024",
+    title: "Video kegiatan pekerjaan",
+    date: "6 Agustus 2024",
   },
   {
     thumbnail: bendungan5,
     url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan 31 Juli 2024",
+    title: "Video kegiatan pekerjaan",
+    date: "6 Agustus 2024",
   },
   {
     thumbnail: bendungan6,
     url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan 31 Juli 2024",
+    title: "Video kegiatan pekerjaan",
+    date: "6 Agustus 2024",
   },
 ];
 
@@ -488,58 +498,72 @@ const infografisGallery = [
   {
     url: infografis1,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis2,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis3,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis4,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis5,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis6,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis7,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis8,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis9,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis10,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis11,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis12,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis13,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
   {
     url: infografis14,
     description: "Infografis Desc",
+    date: "6 Agustus 2024",
   },
 ];
 

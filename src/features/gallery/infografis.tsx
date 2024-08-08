@@ -6,6 +6,7 @@ import PhotoCard from "../../components/photo-card";
 interface InfografisType {
   url: string;
   description: string;
+  date: string;
 }
 
 const InfografisGallery = () => {
@@ -33,6 +34,7 @@ const InfografisGallery = () => {
             src={item.url}
             onImageClick={handleImageClick}
             description={item.description}
+            date={item.date}
           />
         ))}
       </div>

@@ -1,5 +1,6 @@
 import InteractiveMap, { LatLng, Marker } from "../../components/map";
 
+import DropdownSelect from "../../components/select";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
@@ -33,19 +34,45 @@ const markersData = [
   // Add more marker data objects as needed
 ];
 
+const filterOptions = [
+  { value: "all", label: "All" },
+  { value: "irigasi", label: "Irigasi" },
+  { value: "bendungan", label: "Bendungan" },
+];
+
 const HomePage = () => {
   const navigate = useNavigate();
-  // const [markers, setMarkers] = useState<LatLng[]>([]);
+  const [search, setSearch] = useState("");
+  const [filteredMarkers, setFilteredMarkers] = useState(markersData);
+  const [selectedType, setSelectedType] = useState("all");
 
-  // const addMarker = (position: LatLng) => {
-  //   setMarkers((prevMarkers) => [...prevMarkers, position]);
-  // };
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const searchTerm = e.target.value.toLowerCase();
+    setSearch(searchTerm);
+    filterMarkers(searchTerm, selectedType);
+  };
 
-  // const handleMarkerClick = (position: { lat: number; lng: number }) => {
-  //   alert(`Marker at ${position.lat}, ${position.lng} clicked!`);
-  // };
+  const handleTypeChange = (e: { target: { value: string } }) => {
+    const type = e.target.value;
+    setSelectedType(type);
+    filterMarkers(search, type);
+  };
 
-  const markers: Marker[] = markersData.map((marker) => ({
+  const filterMarkers = (searchTerm: string, type: string) => {
+    setFilteredMarkers(
+      markersData.filter((marker) => {
+        const matchesSearch = marker.title.toLowerCase().includes(searchTerm);
+        const matchesType = type === "all" || marker.type === type;
+        return matchesSearch && matchesType;
+      })
+    );
+  };
+
+  const handleDetail = (marker: any) => {
+    navigate(`/visiting-point/detail/${marker.type}/${marker.id}`);
+  };
+
+  const markers: Marker[] = filteredMarkers.map((marker) => ({
     lat: marker.lat,
     lng: marker.lng,
     component: (
@@ -59,18 +86,33 @@ const HomePage = () => {
     ),
   }));
 
-  const handleDetail = (marker: any) => {
-    navigate(`/visiting-point/detail/${marker.type}/${marker.id}`);
-  };
-
   return (
-    <InteractiveMap
-      center={{ lat: -3.3194, lng: 104.9147 }}
-      zoom={8}
-      // onMarkerClick={handleMarkerClick}
-      // addMarker={addMarker}
-      markers={markers}
-    />
+    <div className="relative h-full">
+      <div className="absolute top-4 right-4 z-10 flex gap-4">
+        <input
+          type="text"
+          placeholder="Search by title..."
+          value={search}
+          onChange={handleSearch}
+          className="p-2 border border-gray-300 rounded"
+        />
+        <DropdownSelect
+          name="type"
+          placeholder="Filter by type"
+          data={filterOptions}
+          onChange={handleTypeChange}
+          value={selectedType}
+          className="p-2 border border-gray-300 rounded"
+        />
+      </div>
+      <div className="h-full">
+        <InteractiveMap
+          center={{ lat: -3.3194, lng: 104.9147 }}
+          zoom={8}
+          markers={markers}
+        />
+      </div>
+    </div>
   );
 };
 

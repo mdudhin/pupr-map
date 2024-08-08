@@ -5,9 +5,16 @@ interface VideoType {
   onVideoClick: (url: string) => void;
   url: string;
   title: string;
+  date: string;
 }
 
-const VideoCard: React.FC<VideoType> = ({ src, onVideoClick, url, title }) => {
+const VideoCard: React.FC<VideoType> = ({
+  src,
+  onVideoClick,
+  url,
+  title,
+  date,
+}) => {
   return (
     <div className="flex justify-center flex-col bg-white rounded-md cursor-pointer shadow-md">
       <img
@@ -17,7 +24,8 @@ const VideoCard: React.FC<VideoType> = ({ src, onVideoClick, url, title }) => {
         onClick={() => onVideoClick(url)}
       />
       <div className="p-3">
-        <label className="">{title}</label>
+        <span className="text-gray-500 text-sm">{date}</span>
+        <label className="block mt-1">{title}</label>
       </div>
     </div>
   );
