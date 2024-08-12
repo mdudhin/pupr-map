@@ -1,7 +1,6 @@
 import CCTVDetail from "./cctv";
 import { CustomTabs } from "../../components/tabs";
 import Documentation from "./documentation";
-import React from "react";
 import WorkDetail from "./work-detail";
 
 const DetailPage = () => {

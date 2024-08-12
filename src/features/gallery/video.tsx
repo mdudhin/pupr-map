@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import VideoCard from "../../components/video-card";
 import { getVideoGallery } from "../../services/mock-data";

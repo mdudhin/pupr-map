@@ -1,4 +1,4 @@
-import InteractiveMap, { LatLng, Marker } from "../../components/map";
+import InteractiveMap, { Marker } from "../../components/map";
 
 import DropdownSelect from "../../components/select";
 import { useNavigate } from "react-router-dom";

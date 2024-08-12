@@ -1,11 +1,3 @@
-import bendungan1 from "../assets/bendungan/_DSC0124.jpg";
-import bendungan2 from "../assets/bendungan/_DSC0143.jpg";
-import bendungan3 from "../assets/bendungan/_DSC0151.jpg";
-import bendungan4 from "../assets/bendungan/_DSC0153.jpg";
-import bendungan5 from "../assets/bendungan/_DSC0161.jpg";
-import bendungan6 from "../assets/bendungan/_DSC0165.jpg";
-import bendungan7 from "../assets/bendungan/_DSC0174.jpg";
-import bendungan8 from "../assets/bendungan/_DSC0177.jpg";
 import infografis1 from "../assets/infografis/photo1.jpg";
 import infografis10 from "../assets/infografis/photo10.png";
 import infografis11 from "../assets/infografis/photo11.jpg";
@@ -24,14 +16,6 @@ import irigasiKomering1 from "../assets/irigasiKomering/photo1.jpg";
 import irigasiKomering2 from "../assets/irigasiKomering/photo2.jpg";
 import irigasiKomering3 from "../assets/irigasiKomering/photo3.jpg";
 import irigasiKomering4 from "../assets/irigasiKomering/photo4.jpg";
-import irigasiLematang1 from "../assets/irigasiLematang/photo1.jpg";
-import irigasiLematang2 from "../assets/irigasiLematang/photo2.jpg";
-import irigasiLematang3 from "../assets/irigasiLematang/photo3.jpg";
-import irigasiLematang4 from "../assets/irigasiLematang/photo4.jpg";
-import irigasiLematang5 from "../assets/irigasiLematang/photo5.jpg";
-import irigasiLematang6 from "../assets/irigasiLematang/photo6.jpg";
-import irigasiLematang7 from "../assets/irigasiLematang/photo7.jpg";
-import irigasiLematang8 from "../assets/irigasiLematang/photo8.jpg";
 
 export const mockDataBendungan = {
   sections: [

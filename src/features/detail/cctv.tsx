@@ -1,5 +1,4 @@
 import DropdownSelect from "../../components/select";
-import React from "react";
 
 const CCTVDetail = () => {
   const data = [

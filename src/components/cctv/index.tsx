@@ -1,5 +1,3 @@
-import React from "react";
-
 const CCTVEmbed = () => {
   const cctvStreamUrl = "https://video.nest.com/embedded/live/bb6vhx2L01"; // Example public CCTV stream URL
 

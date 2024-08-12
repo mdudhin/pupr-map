@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { getInfoGrafis, getPhotoGallery } from "../../services/mock-data";
+import { useEffect, useState } from "react";
 
 import PhotoCard from "../../components/photo-card";
+import { getInfoGrafis } from "../../services/mock-data";
 
 interface InfografisType {
   url: string;
