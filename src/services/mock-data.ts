@@ -457,41 +457,55 @@ const photoGallery = [
 
 const videoGallery = [
   {
-    thumbnail: bendungan1,
-    url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
     title: "Video kegiatan pekerjaan",
     date: "6 Agustus 2024",
   },
   {
-    thumbnail: bendungan2,
-    url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
     title: "Video kegiatan pekerjaan",
     date: "6 Agustus 2024",
   },
   {
-    thumbnail: bendungan3,
-    url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
     title: "Video kegiatan pekerjaan",
     date: "6 Agustus 2024",
   },
   {
-    thumbnail: bendungan4,
-    url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
     title: "Video kegiatan pekerjaan",
     date: "6 Agustus 2024",
   },
-  {
-    thumbnail: bendungan5,
-    url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan",
-    date: "6 Agustus 2024",
-  },
-  {
-    thumbnail: bendungan6,
-    url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-    title: "Video kegiatan pekerjaan",
-    date: "6 Agustus 2024",
-  },
+  // {
+  //   thumbnail: bendungan2,
+  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
+  // {
+  //   thumbnail: bendungan3,
+  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
+  // {
+  //   thumbnail: bendungan4,
+  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
+  // {
+  //   thumbnail: bendungan5,
+  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
+  // {
+  //   thumbnail: bendungan6,
+  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
 ];
 
 const infografisGallery = [

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
 import bg from "../../assets/bg.mp4";
 import hidrologi from "../../assets/E_HIDROLOGI.png";
 import logo from "../../assets/logo.png";
@@ -6,8 +7,28 @@ import { useNavigate } from "react-router-dom";
 import visitingPoint from "../../assets/VISITING_POINT.png";
 import wrdc from "../../assets/WRDC.png";
 
-const Dashboard = () => {
+const Dashboard: React.FC = () => {
   const navigate = useNavigate();
+  const [currentTime, setCurrentTime] = useState<string>("");
+
+  useEffect(() => {
+    const updateTime = () => {
+      const now = new Date();
+      const options: Intl.DateTimeFormatOptions = {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      };
+      const formattedDate = now.toLocaleDateString("id-ID", options);
+      const formattedTime = now.toLocaleTimeString("id-ID", { hour12: false });
+      setCurrentTime(`Palembang, ${formattedDate} ${formattedTime}`);
+    };
+
+    const intervalId = setInterval(updateTime, 1000); // Update every second
+
+    return () => clearInterval(intervalId); // Cleanup on component unmount
+  }, []);
+
   return (
     <div className="relative flex flex-col h-screen w-full justify-center items-center">
       <video
@@ -17,6 +38,9 @@ const Dashboard = () => {
         loop
         muted
       />
+      <div className="absolute top-4 right-4 text-white text-sm">
+        {currentTime}
+      </div>
       <div className="relative z-10 flex flex-col items-center gap-4">
         <img src={logo} className="shadow-md rounded-md w-36" />
         <h1 className="text-white font-bold text-5xl mb-20 text-center flex flex-col gap-2">

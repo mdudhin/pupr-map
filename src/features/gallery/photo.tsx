@@ -42,12 +42,12 @@ const PhotoGallery = () => {
 
       {fullScreenImage && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50"
           onClick={handleFullScreenClose}
         >
           <img
             src={fullScreenImage}
-            className="max-w-full max-h-full"
+            className="max-w-[800px] max-h-[500px] rounded-sm"
             alt="Full Screen"
           />
         </div>

@@ -13,28 +13,24 @@ interface VideoType {
 const VideoGallery = () => {
   const [data, setData] = useState<VideoType[]>([]);
 
-  const navigateToUrl = (url: string) => {
-    window.location.href = url;
-  };
-
   useEffect(() => {
     const response: any = getVideoGallery();
     setData(response);
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-      {data.map((item, index) => (
-        <VideoCard
-          key={index}
-          src={item.thumbnail}
-          url={item.url}
-          title={item.title}
-          date={item.date}
-          onVideoClick={navigateToUrl}
-        />
-      ))}
-    </div>
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {data.map((item, index) => (
+          <VideoCard
+            key={index}
+            url={item.url}
+            title={item.title}
+            date={item.date}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 
