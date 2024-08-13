@@ -198,13 +198,23 @@ export const mockDataBendungan = {
   //   },
   // ],
   video: [
+    // {
+    //   src: "https://drive.google.com/drive/folders/1EOLQtkpgceCD9jUp5mmSFDckmuK7XWMi",
+    //   description: "1 Agustus 2024",
+    // },
+    // {
+    //   src: "https://drive.google.com/drive/folders/1qtkOQvUPxbGFYR8UqnWlh6xZ0P56xg3W",
+    //   description: "1 Juli 2024",
+    // },
     {
-      src: "https://drive.google.com/drive/folders/1EOLQtkpgceCD9jUp5mmSFDckmuK7XWMi",
-      description: "1 Agustus 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Juli%202024_Satker%20Semua%20Paket.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "Juli 2024",
     },
     {
-      src: "https://drive.google.com/drive/folders/1qtkOQvUPxbGFYR8UqnWlh6xZ0P56xg3W",
-      description: "1 Juli 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0796.MP4",
+      title: "Video kegiatan pekerjaan",
+      date: "Juli 2024",
     },
   ],
 };
@@ -285,13 +295,28 @@ export const mockDataIrigasiLematang = {
   //   },
   // ],
   video: [
+    // {
+    //   src: "https://drive.google.com/drive/folders/1EOLQtkpgceCD9jUp5mmSFDckmuK7XWMi",
+    //   description: "1 Agustus 2024",
+    // },
+    // {
+    //   src: "https://drive.google.com/drive/folders/1qtkOQvUPxbGFYR8UqnWlh6xZ0P56xg3W",
+    //   description: "1 Juli 2024",
+    // },
     {
-      src: "https://drive.google.com/drive/folders/1EOLQtkpgceCD9jUp5mmSFDckmuK7XWMi",
-      description: "1 Agustus 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20drone%20view%20per%2025%20Juli.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "1 Juli 2024",
     },
     {
-      src: "https://drive.google.com/drive/folders/1qtkOQvUPxbGFYR8UqnWlh6xZ0P56xg3W",
-      description: "1 Juli 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-13%20at%2021.05.50%20(1).mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-13%20at%2021.05.50.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "Juli 2024",
     },
   ],
 };
@@ -395,13 +420,18 @@ export const mockDataIrigasiKomering = {
   //   },
   // ],
   video: [
+    // {
+    //   src: "https://drive.google.com/drive/folders/1EOLQtkpgceCD9jUp5mmSFDckmuK7XWMi",
+    //   description: "1 Agustus 2024",
+    // },
+    // {
+    //   src: "https://drive.google.com/drive/folders/1qtkOQvUPxbGFYR8UqnWlh6xZ0P56xg3W",
+    //   description: "1 Juli 2024",
+    // },
     {
-      src: "https://drive.google.com/drive/folders/1EOLQtkpgceCD9jUp5mmSFDckmuK7XWMi",
-      description: "1 Agustus 2024",
-    },
-    {
-      src: "https://drive.google.com/drive/folders/1qtkOQvUPxbGFYR8UqnWlh6xZ0P56xg3W",
-      description: "1 Juli 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/BELITANG%2029%20JULI.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "29 Juli 2024",
     },
   ],
 };
@@ -445,21 +475,21 @@ const videoGallery = [
     title: "Video kegiatan pekerjaan",
     date: "6 Agustus 2024",
   },
-  {
-    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
-    title: "Video kegiatan pekerjaan",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
-    title: "Video kegiatan pekerjaan",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
-    title: "Video kegiatan pekerjaan",
-    date: "6 Agustus 2024",
-  },
+  // {
+  //   url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
+  // {
+  //   url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
+  // {
+  //   url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
+  //   title: "Video kegiatan pekerjaan",
+  //   date: "6 Agustus 2024",
+  // },
   // {
   //   thumbnail: bendungan2,
   //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
@@ -493,6 +523,11 @@ const videoGallery = [
 ];
 
 const infografisGallery = [
+  {
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WhatsApp%20Image%202024-08-13%20at%2014.43.04.jpeg",
+    description: "Infografis Desc",
+    date: "6 Agustus 2024",
+  },
   {
     url: infografis1,
     description: "Infografis Desc",
@@ -560,6 +595,11 @@ const infografisGallery = [
   },
   {
     url: infografis14,
+    description: "Infografis Desc",
+    date: "6 Agustus 2024",
+  },
+  {
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WhatsApp%20Image%202024-08-13%20at%2014.43.04.jpeg",
     description: "Infografis Desc",
     date: "6 Agustus 2024",
   },

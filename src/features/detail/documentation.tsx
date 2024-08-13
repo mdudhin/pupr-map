@@ -152,6 +152,7 @@ import React, { useEffect, useState } from "react";
 
 import DropdownSelect from "../../components/select";
 import { Folder } from "lucide-react";
+import VideoCard from "../../components/video-card";
 import { getMockData } from "../../services/mock-data";
 import { useParams } from "react-router-dom";
 
@@ -165,14 +166,19 @@ interface PhotoItem {
   description: string;
 }
 
-interface VideoItem {
-  src: string;
-  description: string;
-}
-
 interface MediaData {
   photo: PhotoItem[];
-  video: VideoItem[];
+  video: Video[];
+}
+interface Video {
+  thumbnail: string;
+  url: string;
+  title: string;
+  date: string;
+}
+
+interface VideoComponentProps {
+  data: Video[];
 }
 
 interface FolderComponentProps {
@@ -200,33 +206,20 @@ const FolderComponent: React.FC<FolderComponentProps> = ({
   );
 };
 
-// const VideoComponent: React.FC<VideoComponentProps> = ({ data }) => {
-//   const navigateToUrl = (url: string) => {
-//     window.location.href = url;
-//   };
-
-//   return (
-//     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-//       {data.map((item, index) => (
-//         <div
-//           key={index}
-//           className="flex justify-center flex-col bg-white rounded-md cursor-pointer shadow-md"
-//         >
-//           <img
-//             key={index}
-//             src={item.thumbnail}
-//             className="w-full h-auto rounded-t-md  "
-//             alt={`Photo ${index}`}
-//             onClick={() => navigateToUrl(item.url)}
-//           />
-//           <div className="p-3">
-//             <label className="">{item.title}</label>
-//           </div>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
+const VideoComponent: React.FC<VideoComponentProps> = ({ data }) => {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {data.map((item, index) => (
+        <VideoCard
+          key={index}
+          url={item.url}
+          title={item.title}
+          date={item.date}
+        />
+      ))}
+    </div>
+  );
+};
 
 const Documentation = () => {
   const { id } = useParams<{ id: string }>();
@@ -273,9 +266,7 @@ const Documentation = () => {
       {selectedValue === "photo" && (
         <FolderComponent data={photo} onFolderClick={handleClick} />
       )}
-      {selectedValue === "video" && (
-        <FolderComponent data={video} onFolderClick={handleClick} />
-      )}
+      {selectedValue === "video" && <VideoComponent data={video} />}
     </div>
   );
 };
