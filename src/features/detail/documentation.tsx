@@ -151,7 +151,8 @@
 import React, { useEffect, useState } from "react";
 
 import DropdownSelect from "../../components/select";
-import { Folder } from "lucide-react";
+// import { Folder } from "lucide-react";
+import PhotoCard from "../../components/photo-card";
 import VideoCard from "../../components/video-card";
 import { getMockData } from "../../services/mock-data";
 import { useParams } from "react-router-dom";
@@ -162,8 +163,9 @@ interface DataOption {
 }
 
 interface PhotoItem {
-  src: string;
+  url: string;
   description: string;
+  date: string;
 }
 
 interface MediaData {
@@ -181,26 +183,50 @@ interface VideoComponentProps {
   data: Video[];
 }
 
-interface FolderComponentProps {
+// interface FolderComponentProps {
+//   data: PhotoItem[];
+//   onFolderClick: (src: string) => void;
+// }
+
+interface PhotoComponentProps {
   data: PhotoItem[];
-  onFolderClick: (src: string) => void;
+  onImageClick: (src: string) => void;
 }
 
-const FolderComponent: React.FC<FolderComponentProps> = ({
+// const FolderComponent: React.FC<FolderComponentProps> = ({
+//   data,
+//   onFolderClick,
+// }) => {
+//   return (
+//     <div className="flex flex-row flex-wrap gap-5">
+//       {data.map((item, index) => (
+//         <div
+//           key={index}
+//           className="flex justify-center rounded-md bg-white shadow-md px-5 py-3 cursor-pointer gap-x-3"
+//           onClick={() => onFolderClick(item.src)}
+//         >
+//           <Folder />
+//           {item.description}
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+
+const PhotoComponent: React.FC<PhotoComponentProps> = ({
   data,
-  onFolderClick,
+  onImageClick,
 }) => {
   return (
-    <div className="flex flex-row flex-wrap gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {data.map((item, index) => (
-        <div
+        <PhotoCard
           key={index}
-          className="flex justify-center rounded-md bg-white shadow-md px-5 py-3 cursor-pointer gap-x-3"
-          onClick={() => onFolderClick(item.src)}
-        >
-          <Folder />
-          {item.description}
-        </div>
+          src={item.url}
+          onImageClick={onImageClick}
+          description={item.description}
+          date={item.date}
+        />
       ))}
     </div>
   );
@@ -230,6 +256,7 @@ const Documentation = () => {
 
   const [selectedValue, setSelectedValue] = useState<string>("photo");
   const [data, setData] = useState<MediaData | null>(null);
+  const [fullScreenImage, setFullScreenImage] = useState<string | null>(null);
 
   const handleSelectChange = (event: {
     target: { value: any; name: string };
@@ -237,8 +264,16 @@ const Documentation = () => {
     setSelectedValue(event.target.value);
   };
 
-  const handleClick = (src: string) => {
-    window.location.href = src;
+  // const handleClick = (src: string) => {
+  //   window.location.href = src;
+  // };
+
+  const handleImageClick = (src: string) => {
+    setFullScreenImage(src);
+  };
+
+  const handleFullScreenClose = () => {
+    setFullScreenImage(null);
   };
 
   useEffect(() => {
@@ -264,9 +299,22 @@ const Documentation = () => {
       />
 
       {selectedValue === "photo" && (
-        <FolderComponent data={photo} onFolderClick={handleClick} />
+        <PhotoComponent data={photo} onImageClick={handleImageClick} />
       )}
       {selectedValue === "video" && <VideoComponent data={video} />}
+
+      {fullScreenImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50"
+          onClick={handleFullScreenClose}
+        >
+          <img
+            src={fullScreenImage}
+            className="max-w-[800px] max-h-[500px] rounded-sm"
+            alt="Full Screen"
+          />
+        </div>
+      )}
     </div>
   );
 };

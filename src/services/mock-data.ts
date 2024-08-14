@@ -156,13 +156,18 @@ export const mockDataBendungan = {
   //   bendungan8,
   // ],
   photo: [
+    // {
+    //   src: "https://drive.google.com/drive/folders/1J8FGQpzQqUwkltSWl6CmTFQJ2hhyL8nJ",
+    //   description: "1 Agustus 2024",
+    // },
+    // {
+    //   src: "https://drive.google.com/drive/folders/1y2imBC28u6B0YP8jddWO4-4ivnU_vL1z",
+    //   description: "1 Juli 2024",
+    // },
     {
-      src: "https://drive.google.com/drive/folders/1J8FGQpzQqUwkltSWl6CmTFQJ2hhyL8nJ",
-      description: "1 Agustus 2024",
-    },
-    {
-      src: "https://drive.google.com/drive/folders/1y2imBC28u6B0YP8jddWO4-4ivnU_vL1z",
-      description: "1 Juli 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/29.proyek-pembangunan-bendungan-tiga-dihaji.jpg",
+      description: "Photo Desc",
+      date: "6 Agustus 2024",
     },
   ],
   // video: [
@@ -278,13 +283,18 @@ export const mockDataIrigasiLematang = {
   //   irigasiLematang8,
   // ],
   photo: [
+    // {
+    //   src: "https://drive.google.com/drive/folders/1J8FGQpzQqUwkltSWl6CmTFQJ2hhyL8nJ",
+    //   description: "1 Agustus 2024",
+    // },
+    // {
+    //   src: "https://drive.google.com/drive/folders/1y2imBC28u6B0YP8jddWO4-4ivnU_vL1z",
+    //   description: "1 Juli 2024",
+    // },
     {
-      src: "https://drive.google.com/drive/folders/1J8FGQpzQqUwkltSWl6CmTFQJ2hhyL8nJ",
-      description: "1 Agustus 2024",
-    },
-    {
-      src: "https://drive.google.com/drive/folders/1y2imBC28u6B0YP8jddWO4-4ivnU_vL1z",
-      description: "1 Juli 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/42d0327ce309d379cb9205ed67edcf52.jpg",
+      description: "Photo Desc",
+      date: "6 Agustus 2024",
     },
   ],
   // video: [
@@ -413,13 +423,18 @@ export const mockDataIrigasiKomering = {
   //   irigasiKomering4,
   // ],
   photo: [
+    // {
+    //   src: "https://drive.google.com/drive/folders/1J8FGQpzQqUwkltSWl6CmTFQJ2hhyL8nJ",
+    //   description: "1 Agustus 2024",
+    // },
+    // {
+    //   src: "https://drive.google.com/drive/folders/1y2imBC28u6B0YP8jddWO4-4ivnU_vL1z",
+    //   description: "1 Juli 2024",
+    // },
     {
-      src: "https://drive.google.com/drive/folders/1J8FGQpzQqUwkltSWl6CmTFQJ2hhyL8nJ",
-      description: "1 Agustus 2024",
-    },
-    {
-      src: "https://drive.google.com/drive/folders/1y2imBC28u6B0YP8jddWO4-4ivnU_vL1z",
-      description: "1 Juli 2024",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/dikeringkan.jpg",
+      description: "Photo Desc",
+      date: "6 Agustus 2024",
     },
   ],
   // video: [

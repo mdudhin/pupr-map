@@ -12,7 +12,7 @@ const markersData = [
     type: "irigasi",
     title: "Daerah Irigasi Lematang",
     imageUrl:
-      "https://sumeksradio.disway.id/upload/42d0327ce309d379cb9205ed67edcf52.jpg",
+      "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/42d0327ce309d379cb9205ed67edcf52.jpg",
   },
   {
     id: 2,
@@ -20,7 +20,8 @@ const markersData = [
     lng: 104.382,
     type: "irigasi",
     title: "Daerah Irigasi Komering",
-    imageUrl: "https://sumsel.news/wp-content/uploads/2021/09/dikeringkan.jpg",
+    imageUrl:
+      "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/dikeringkan.jpg",
   },
   {
     id: 3,
@@ -29,7 +30,7 @@ const markersData = [
     type: "bendungan",
     title: "Bendungan Tiga Dihaji",
     imageUrl:
-      "https://tender-indonesia.com/newsrectory/events/29.proyek-pembangunan-bendungan-tiga-dihaji.jpg",
+      "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/29.proyek-pembangunan-bendungan-tiga-dihaji.jpg",
   },
   // Add more marker data objects as needed
 ];
