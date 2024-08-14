@@ -496,9 +496,19 @@ const photoGallery = [
 
 const videoGallery = [
   {
-    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0796.MP4",
     title: "Video kegiatan pekerjaan",
-    date: "6 Agustus 2024",
+    date: "Juli 2024",
+  },
+  {
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20drone%20view%20per%2025%20Juli.mp4",
+    title: "Video kegiatan pekerjaan",
+    date: "Juli 2024",
+  },
+  {
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/BELITANG%2029%20JULI.mp4",
+    title: "Video kegiatan pekerjaan",
+    date: "Juli 2024",
   },
   // {
   //   url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
