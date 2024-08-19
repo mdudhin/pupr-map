@@ -338,6 +338,16 @@ export const mockDataIrigasiLematang = {
       title: "Video kegiatan pekerjaan",
       date: "Juli 2024",
     },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.38.22.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "16 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.39.09.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "16 Agustus 2024",
+    },
   ],
 };
 
