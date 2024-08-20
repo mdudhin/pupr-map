@@ -468,6 +468,11 @@ export const mockDataIrigasiKomering = {
       title: "Video kegiatan pekerjaan",
       date: "29 Juli 2024",
     },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20mingguan.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "19 Agustus 2024",
+    },
   ],
 };
 
