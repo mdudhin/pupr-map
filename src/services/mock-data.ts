@@ -212,6 +212,11 @@ export const mockDataBendungan = {
     //   description: "1 Juli 2024",
     // },
     {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-26%20at%2015.55.55.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "12 Agustus 2024",
+    },
+    {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Juli%202024_Satker%20Semua%20Paket.mp4",
       title: "Video kegiatan pekerjaan",
       date: "Juli 2024",
