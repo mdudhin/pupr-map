@@ -314,6 +314,36 @@ export const mockDataIrigasiLematang = {
     //   description: "1 Juli 2024",
     // },
     {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Plang%20Kenidai%20_%202024-08-21.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "22 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Utama_2024-08-20.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "21 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Kanan_2024-08-20.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "21 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Salipaya_2024-08-21.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "21 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.38.22.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "16 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.39.09.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "16 Agustus 2024",
+    },
+    {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20drone%20view%20per%2025%20Juli.mp4",
       title: "Video kegiatan pekerjaan",
       date: "1 Juli 2024",
@@ -337,36 +367,6 @@ export const mockDataIrigasiLematang = {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-14%20at%2012.36.19.mp4",
       title: "Video kegiatan pekerjaan",
       date: "Juli 2024",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.38.22.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "16 Agustus 2024",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.39.09.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "16 Agustus 2024",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Utama_2024-08-20.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "21 Agustus 2024",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Kanan_2024-08-20.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "21 Agustus 2024",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Salipaya_2024-08-21.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "21 Agustus 2024",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Plang%20Kenidai%20_%202024-08-21.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "22 Agustus 2024",
     },
   ],
 };
@@ -484,14 +484,14 @@ export const mockDataIrigasiKomering = {
     //   description: "1 Juli 2024",
     // },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/BELITANG%2029%20JULI.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "29 Juli 2024",
-    },
-    {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20mingguan.mp4",
       title: "Video kegiatan pekerjaan",
       date: "19 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/BELITANG%2029%20JULI.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "29 Juli 2024",
     },
   ],
 };
