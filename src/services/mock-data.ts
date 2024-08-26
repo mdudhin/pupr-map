@@ -348,6 +348,26 @@ export const mockDataIrigasiLematang = {
       title: "Video kegiatan pekerjaan",
       date: "16 Agustus 2024",
     },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Utama_2024-08-20.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "21 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Kanan_2024-08-20.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "21 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Salipaya_2024-08-21.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "21 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Plang%20Kenidai%20_%202024-08-21.mp4",
+      title: "Video kegiatan pekerjaan",
+      date: "22 Agustus 2024",
+    },
   ],
 };
 
