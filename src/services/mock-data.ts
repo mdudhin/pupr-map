@@ -165,6 +165,26 @@ export const mockDataBendungan = {
     //   description: "1 Juli 2024",
     // },
     {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0061.JPG",
+      description: "Photo Desc",
+      date: "26 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0063.JPG",
+      description: "Photo Desc",
+      date: "26 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0064.JPG",
+      description: "Photo Desc",
+      date: "26 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0114.JPG",
+      description: "Photo Desc",
+      date: "26 Agustus 2024",
+    },
+    {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/29.proyek-pembangunan-bendungan-tiga-dihaji.jpg",
       description: "Photo Desc",
       date: "6 Agustus 2024",
@@ -300,6 +320,426 @@ export const mockDataIrigasiLematang = {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/42d0327ce309d379cb9205ed67edcf52.jpg",
       description: "Photo Desc",
       date: "6 Agustus 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+950.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+850.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+800.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+750.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+700.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+650.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+600.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+550.png",
+      description: "Photo Desc",
+      date: "30 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+800.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+750.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+700.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+650.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+600.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+550.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+500.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+050.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+450.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+400.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+350.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+300.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+250.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+200.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+150.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+100.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+050.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%204+000.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+950.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+900.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+850.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+800.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+750.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+700.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+650.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+600.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+500.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+475.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+150.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+100.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%203+000.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+900.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+875.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+850.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+800.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+750.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+700.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+650.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+550.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+500.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+450.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+400.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+350.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+300.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+250.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+200.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+150.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+100.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+050.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%202+000.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+900.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+500.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+450.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+050.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%201+000.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+950.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+900.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+850.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+800.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+750.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+700.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+650.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+600.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+550.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+500.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+400.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+350.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+300.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+200.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Talang%202.png",
+      description: "Photo Desc",
+      date: "28 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jembatan%20Talang%204.jpeg",
+      description: "Photo Desc",
+      date: "27 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jembatan%20Talang%205.jpeg",
+      description: "Photo Desc",
+      date: "27 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jembatan%20Talang%206.jpeg",
+      description: "Photo Desc",
+      date: "27 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+050.JPG",
+      description: "Photo Desc",
+      date: "23 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/Sta%200+000.JPG",
+      description: "Photo Desc",
+      date: "23 Juli 2024",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Talang%201.JPG",
+      description: "Photo Desc",
+      date: "14 Juli 2024",
     },
   ],
   // video: [
