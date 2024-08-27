@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import bg from "../../assets/bg.mp4";
 import hidrologi from "../../assets/E_HIDROLOGI.png";
 import logo from "../../assets/logo.png";
+import simadu from "../../assets/LOGO SIMADU.png";
 import { useNavigate } from "react-router-dom";
 import visitingPoint from "../../assets/VISITING_POINT.png";
 import wrdc from "../../assets/WRDC.png";
@@ -85,13 +86,19 @@ const Dashboard: React.FC = () => {
               E Hidrologi
             </span>
           </div>
-          <div className="flex flex-col items-center gap-1">
+          <div
+            className="flex flex-col items-center gap-1"
+            onClick={() => {
+              window.location.href =
+                "https://sinbad.sda.pu.go.id/simadu/main/login.php";
+            }}
+          >
             <img
-              src={logo}
+              src={simadu}
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-16 text-center text-xs">
-              Early Warning System
+              SIMADU
             </span>
           </div>
           <div
