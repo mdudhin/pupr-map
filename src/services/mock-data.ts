@@ -174,7 +174,7 @@ export const mockDataBendungan = {
   ],
   video: [
     {
-      url: "https://www.youtube.com/embed/MImJKbpibQM?si=3-AZ0G0LGYjsWH-C",
+      url: "https://www.youtube.com/embed/OuoFoOBcNZ4?si=2DuAHLHEPppgVSKO",
       title: "Video kegiatan pekerjaan",
       date: "2024-08-12",
     },
