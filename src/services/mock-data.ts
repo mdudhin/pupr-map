@@ -914,7 +914,56 @@ const infografisGallery = [
     description: "Infografis Desc",
     date: "2024-08-06",
   },
-  // Other infografis objects...
+  {
+    url: infografis6,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis7,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis8,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis9,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis10,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis11,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis12,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis13,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: infografis14,
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
+  {
+    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WhatsApp%20Image%202024-08-13%20at%2014.43.04.jpeg",
+    description: "Infografis Desc",
+    date: "2024-08-06",
+  },
 ];
 
 export const getInfoGrafis = () => {
