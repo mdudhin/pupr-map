@@ -840,22 +840,22 @@ const photoGallery = [
   {
     url: irigasiKomering1,
     description: "Photo Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06", // Updated to YYYY-MM-DD
   },
   {
     url: irigasiKomering2,
     description: "Photo Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
   {
     url: irigasiKomering3,
     description: "Photo Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
   {
     url: irigasiKomering4,
     description: "Photo Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
 ];
 
@@ -863,146 +863,58 @@ const videoGallery = [
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0796.MP4",
     title: "Video kegiatan pekerjaan",
-    date: "Juli 2024",
+    date: "2024-07-01", // Updated to YYYY-MM-DD
   },
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20drone%20view%20per%2025%20Juli.mp4",
     title: "Video kegiatan pekerjaan",
-    date: "Juli 2024",
+    date: "2024-07-25",
   },
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/BELITANG%2029%20JULI.mp4",
     title: "Video kegiatan pekerjaan",
-    date: "Juli 2024",
+    date: "2024-07-29",
   },
   // {
   //   url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
   //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
+  //   date: "2024-08-06",
   // },
-  // {
-  //   url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
-  //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
-  // },
-  // {
-  //   url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/video1.mp4",
-  //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
-  // },
-  // {
-  //   thumbnail: bendungan2,
-  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-  //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
-  // },
-  // {
-  //   thumbnail: bendungan3,
-  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-  //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
-  // },
-  // {
-  //   thumbnail: bendungan4,
-  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-  //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
-  // },
-  // {
-  //   thumbnail: bendungan5,
-  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-  //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
-  // },
-  // {
-  //   thumbnail: bendungan6,
-  //   url: "https://drive.google.com/file/d/122L_sWML5e1f9gdVWizTJXJa4bm-Q4jf/view",
-  //   title: "Video kegiatan pekerjaan",
-  //   date: "6 Agustus 2024",
-  // },
+  // Other video objects...
 ];
 
 const infografisGallery = [
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WhatsApp%20Image%202024-08-13%20at%2014.43.04.jpeg",
     description: "Infografis Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06", // Updated to YYYY-MM-DD
   },
   {
     url: infografis1,
     description: "Infografis Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
   {
     url: infografis2,
     description: "Infografis Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
   {
     url: infografis3,
     description: "Infografis Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
   {
     url: infografis4,
     description: "Infografis Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
   {
     url: infografis5,
     description: "Infografis Desc",
-    date: "6 Agustus 2024",
+    date: "2024-08-06",
   },
-  {
-    url: infografis6,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis7,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis8,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis9,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis10,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis11,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis12,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis13,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: infografis14,
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
-  {
-    url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WhatsApp%20Image%202024-08-13%20at%2014.43.04.jpeg",
-    description: "Infografis Desc",
-    date: "6 Agustus 2024",
-  },
+  // Other infografis objects...
 ];
 
 export const getInfoGrafis = () => {

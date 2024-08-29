@@ -36,16 +36,30 @@ interface VideoComponentProps {
 
 interface PhotoComponentProps {
   data: PhotoItem[];
+  selectedMonth: string;
   onImageClick: (src: string) => void;
 }
 
 const PhotoComponent: React.FC<PhotoComponentProps> = ({
   data,
+  selectedMonth,
   onImageClick,
 }) => {
+  // Filter photos by selected month, if a month is selected
+  const filteredPhotos = selectedMonth
+    ? data.filter((photo) => {
+        const photoDate = new Date(photo.date);
+        const monthYear = photoDate.toLocaleString("default", {
+          month: "long",
+          year: "numeric",
+        });
+        return selectedMonth === "all" || monthYear === selectedMonth;
+      })
+    : data;
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-      {data.map((item, index) => (
+      {filteredPhotos.map((item, index) => (
         <PhotoCard
           key={index}
           src={item.url}
@@ -100,23 +114,29 @@ const Documentation = () => {
   const [fullScreenImage, setFullScreenImage] = useState<string | null>(null);
   const [selectedMonth, setSelectedMonth] = useState<string>("all");
 
-  // Extract unique months for video dropdown
-  const getUniqueMonths = (videos: Video[]) => {
-    const months = videos.map((video) => {
-      const date = new Date(video.date);
+  // Extract unique months for dropdowns
+  const getUniqueMonths = (items: { date: string }[]) => {
+    const months = items.map((item) => {
+      const date = new Date(item.date);
       return date.toLocaleString("default", { month: "long", year: "numeric" });
     });
     return Array.from(new Set(months));
   };
 
+  const [photoMonths, setPhotoMonths] = useState<string[]>([]);
   const [videoMonths, setVideoMonths] = useState<string[]>([]);
 
   useEffect(() => {
     const response: any = getMockData(id as string);
     setData(response);
 
-    if (response && response.video) {
-      setVideoMonths(getUniqueMonths(response.video));
+    if (response) {
+      if (response.photo) {
+        setPhotoMonths(getUniqueMonths(response.photo));
+      }
+      if (response.video) {
+        setVideoMonths(getUniqueMonths(response.video));
+      }
     }
   }, [id]);
 
@@ -175,7 +195,25 @@ const Documentation = () => {
       )}
 
       {selectedValue === "photo" && (
-        <PhotoComponent data={photo} onImageClick={handleImageClick} />
+        <>
+          <DropdownSelect
+            className="w-[200px] p-2 mt-4 border rounded-md"
+            data={[
+              { value: "all", label: "All Months" },
+              ...photoMonths.map((month) => ({ value: month, label: month })),
+            ]}
+            defaultValue="all"
+            name="monthSelect"
+            placeholder="Select a month"
+            emptyState="No months available"
+            onChange={handleMonthChange}
+          />
+          <PhotoComponent
+            data={photo}
+            selectedMonth={selectedMonth}
+            onImageClick={handleImageClick}
+          />
+        </>
       )}
 
       {selectedValue === "video" && (
