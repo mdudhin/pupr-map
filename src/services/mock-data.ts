@@ -750,7 +750,7 @@ export const mockDataIrigasiKomering = {
   ],
   phases: [
     {
-      title: "PHASE I (2021 - 2024)",
+      title: "PHASE III (2021 - 2024)",
       paket: [
         {
           label: "Package 2",
@@ -807,8 +807,73 @@ export const mockDataIrigasiKomering = {
   ],
   photo: [
     {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0191.JPG",
+      description: "Bendung Perjaya",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0198.JPG",
+      description: "Bendung Perjaya",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0202.JPG",
+      description: "Bendung Perjaya",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0204.JPG",
+      description: "Bendung Perjaya",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0207.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0323.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0324.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0332.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0335.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0338.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0340.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0346.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/DJI_0348.JPG",
+      description: "Package II",
+      date: "2024-08-27",
+    },
+    {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/dikeringkan.jpg",
-      description: "Photo Desc",
+      description: "Bendung Perjaya",
       date: "2024-08-06",
     },
   ],

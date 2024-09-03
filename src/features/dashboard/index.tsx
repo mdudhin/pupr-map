@@ -98,7 +98,7 @@ const Dashboard: React.FC = () => {
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-16 text-center text-xs">
-              SIMADU
+              Early Warning System
             </span>
           </div>
           <div
