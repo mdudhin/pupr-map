@@ -83,7 +83,7 @@ const Dashboard: React.FC = () => {
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-17 text-center text-xs">
-              E Hidrologi
+              E-Hidrologi
             </span>
           </div>
           <div
@@ -98,7 +98,7 @@ const Dashboard: React.FC = () => {
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-16 text-center text-xs">
-              Early Warning System
+              Early Warning System (E-SIMADU)
             </span>
           </div>
           <div
