@@ -174,24 +174,29 @@ export const mockDataBendungan = {
   ],
   video: [
     {
+      url: "https://www.youtube.com/embed/kbSiANA11As?si=lxseQaqZmPCwJSQi",
+      title: "Video Kegiatan Pekerjaan Timbunan Urugan Batu Tubuh Bendungan Paket 1 & 2",
+      date: "2024-08-12",
+    },
+    {
+      url: "https://www.youtube.com/embed/qR6AMDZeOMY?si=DKIhcypeWRihuteI",
+      title: "Video Kegiatan Pekerjaan Pembangunan Bendungan Tigadihaji Paket IV Kab. OKU Selatan",
+      date: "2024-08-12",
+    },
+    {
+      url: "https://www.youtube.com/embed/TPk8-3gTFOE?si=RqtspRtuSknnCz06",
+      title: "Video Kegiatan Pekerjaan Timbunan Urugan Batu Tubuh Bendungan Paket 1 & 2",
+      date: "2024-08-12",
+    },
+    {
       url: "https://www.youtube.com/embed/OuoFoOBcNZ4?si=2DuAHLHEPppgVSKO",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-08-12",
+      title: "Video Kegiatan Pekerjaan Pembangunan Bendungan Tigadihaji Kab. OKU Selatan",
+      date: "2024-07-30",
     },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-26%20at%2015.55.55.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-08-12",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Juli%202024_Satker%20Semua%20Paket.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-07-01",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0796.MP4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-07-01",
+      url: "https://www.youtube.com/embed/PvyGkTamKrQ?si=QXivJOjFoGlPhmDI",
+      title: "Video Kegiatan Pekerjaan Pembangunan Bendungan Tigadihaji Kab. OKU Selatan",
+      date: "2024-08-12 2024-07-15",
     },
   ],
 };
@@ -673,29 +678,39 @@ export const mockDataIrigasiLematang = {
   ],
   video: [
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Plang%20Kenidai%20_%202024-08-21.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-08-22",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Utama_2024-08-20.mp4",
-      title: "Video kegiatan pekerjaan",
+      url: "https://www.youtube.com/embed/psCAI2i2-zI?si=kqDtp4QkDS0BUkmU",
+      title: "Video Kegiatan Pekerjaan DI Lematang Phase II Paket II Saluran Sekunder Plang Kenidai",
       date: "2024-08-21",
     },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Jokoh%20Kanan_2024-08-20.mp4",
-      title: "Video kegiatan pekerjaan",
+      url: "https://www.youtube.com/embed/3nt4JL6jcHw?si=_8hGDZ0X9PEtVUXH",
+      title: "Video Kegiatan Pekerjaan DI Lematang Saluran Sekunder Salipaya Phase II Paket II",
       date: "2024-08-21",
     },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/Salipaya_2024-08-21.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-08-21",
+      url: "https://www.youtube.com/embed/0ECxm-W7iRo?si=hTRWL1jaIstxL9Lf",
+      title: "Video Kegiatan Pekerjaan DI Lematang Phase II Paket II Saluran Sekunder Jokoh Utama",
+      date: "2024-08-20",
     },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.38.22.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-08-16",
+      url: "https://www.youtube.com/embed/cNm2_4FwyA8?si=uQxc82TUbGXP82yg",
+      title: "Video Kegiatan Pekerjaan DI Lematang Phase II Paket II Saluran Sekunder jokoh kanan",
+      date: "2024-08-20",
+    },
+    {
+      url: "https://www.youtube.com/embed/1KiWLk1e8dc?si=sF51l6eqYxbH5rLl",
+      title: "Video Kegiatan Pekerjaan DI Lematang Saluran Sekunder Saluran sekunder Salipayah",
+      date: "2024-08-13",
+    },
+    {
+      url: "https://www.youtube.com/embed/k-d-PLrp4OY?si=5rjoZsDRa5gJuTbl",
+      title: "Video Kegiatan Pekerjaan DI Lematang Phase II Paket II Saluran Sekunder jokoh kanan",
+      date: "2024-08-13",
+    },
+    {
+      url: "https://www.youtube.com/embed/JgTnEbMpcMY?si=gFspFD4H8iqAmqVJ",
+      title: "Video Kegiatan Pekerjaan Pembangunan Jaringan Irigasi D I Lematang Phase II Paket 1",
+      date: "2024-07-25",
     },
     {
       url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-19%20at%2013.39.09.mp4",
@@ -703,12 +718,7 @@ export const mockDataIrigasiLematang = {
       date: "2024-08-16",
     },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20drone%20view%20per%2025%20Juli.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-07-01",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-13%20at%2021.05.50%20(1).mp4",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-14%20at%2012.36.18.mp4",
       title: "Video kegiatan pekerjaan",
       date: "2024-07-01",
     },
@@ -718,12 +728,7 @@ export const mockDataIrigasiLematang = {
       date: "2024-07-01",
     },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-14%20at%2012.36.18.mp4",
-      title: "Video kegiatan pekerjaan",
-      date: "2024-07-01",
-    },
-    {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-14%20at%2012.36.19.mp4",
+      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/WhatsApp%20Video%202024-08-13%20at%2021.05.50%20(1).mp4",
       title: "Video kegiatan pekerjaan",
       date: "2024-07-01",
     },
@@ -879,13 +884,13 @@ export const mockDataIrigasiKomering = {
   ],
   video: [
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20mingguan.mp4",
-      title: "Video kegiatan pekerjaan",
+      url: "https://www.youtube.com/embed/6DeVoMI8_68?si=FHvG1DdPkvviUfWR",
+      title: "Video Kegiatan Pekerjaan Komering Irrigation Project Paket 2",
       date: "2024-08-19",
     },
     {
-      url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/BELITANG%2029%20JULI.mp4",
-      title: "Video kegiatan pekerjaan",
+      url: "https://www.youtube.com/embed/lB_I07T6vKM?si=zRp-ERcfTV6706DO",
+      title: "Video Kegiatan Pekerjaan Komering Irrigation Project Paket 3 Blok K Belitang",
       date: "2024-07-29",
     },
   ],
