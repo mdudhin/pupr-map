@@ -113,6 +113,23 @@ const Dashboard: React.FC = () => {
               Gallery
             </span>
           </div>
+          <div
+            className="flex flex-col items-center gap-1"
+            onClick={() => {
+              window.location.href =
+                "https://www.windy.com/-2.989/104.757?clouds,-3.611,104.757,8";
+            }}
+          >
+            <img
+              src={
+                "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WindyCzesh.jpg"
+              }
+              className="shadow-md rounded-md w-16 cursor-pointer"
+            />
+            <span className="text-white font-semibold w-16 text-center text-xs">
+              Prakiraan Cuaca (Windy)
+            </span>
+          </div>
         </div>
       </div>
     </div>
