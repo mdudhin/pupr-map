@@ -1,9 +1,9 @@
 import infografis1 from "../assets/infografis/photo1.jpg";
 import infografis10 from "../assets/infografis/photo10.png";
-import infografis11 from "../assets/infografis/photo11.jpg";
+// import infografis11 from "../assets/infografis/photo11.jpg";
 import infografis12 from "../assets/infografis/photo12.jpg";
 import infografis13 from "../assets/infografis/photo13.jpg";
-import infografis14 from "../assets/infografis/photo14.jpg";
+// import infografis14 from "../assets/infografis/photo14.jpg";
 import infografis2 from "../assets/infografis/photo2.png";
 import infografis3 from "../assets/infografis/photo3.jpg";
 import infografis4 from "../assets/infografis/photo4.jpg";
@@ -173,6 +173,16 @@ export const mockDataBendungan = {
     },
   ],
   video: [
+    {
+      url: "https://www.youtube.com/embed/tyoDidJS14w?si=LB4jT_9UmWQCz2ZW",
+      title: "Dokumentasi Pembangunan Bendungan Tigadihaji Paket IV Kab OKU Selatan Desember 2024",
+      date: "2024-12-27",
+    },
+    {
+      url: "https://www.youtube.com/embed/jODW_3CXoNs?si=CpJx8KIiWUj4Zd52",
+      title: "Dokumentasi Pelaksanaan Pembangunan Bendungan Tigadihaji Kab. Oku Selatan 2024",
+      date: "2024-12-27",
+    },
     {
       url: "https://www.youtube.com/embed/kbSiANA11As?si=lxseQaqZmPCwJSQi",
       title: "Video Kegiatan Pekerjaan Timbunan Urugan Batu Tubuh Bendungan Paket 1 & 2",
@@ -678,6 +688,11 @@ export const mockDataIrigasiLematang = {
   ],
   video: [
     {
+      url: "https://www.youtube.com/embed/LNXSnvksqwc?si=6I3NHEgz4gtMG6Rn",
+      title: "Dokumentasi Daerah Irigasi Lematang Februari 2025",
+      date: "2025-02-3",
+    },
+    {
       url: "https://www.youtube.com/embed/psCAI2i2-zI?si=kqDtp4QkDS0BUkmU",
       title: "Video Kegiatan Pekerjaan DI Lematang Phase II Paket II Saluran Sekunder Plang Kenidai",
       date: "2024-08-21",
@@ -1009,11 +1024,11 @@ const infografisGallery = [
     description: "Infografis Desc",
     date: "2024-08-06",
   },
-  {
-    url: infografis11,
-    description: "Infografis Desc",
-    date: "2024-08-06",
-  },
+  // {
+  //   url: infografis11,
+  //   description: "Infografis Desc",
+  //   date: "2024-08-06",
+  // },
   {
     url: infografis12,
     description: "Infografis Desc",
@@ -1024,11 +1039,11 @@ const infografisGallery = [
     description: "Infografis Desc",
     date: "2024-08-06",
   },
-  {
-    url: infografis14,
-    description: "Infografis Desc",
-    date: "2024-08-06",
-  },
+  // {
+  //   url: infografis14,
+  //   description: "Infografis Desc",
+  //   date: "2024-08-06",
+  // },
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WhatsApp%20Image%202024-08-13%20at%2014.43.04.jpeg",
     description: "Infografis Desc",
