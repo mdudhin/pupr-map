@@ -1,9 +1,7 @@
 import infografis1 from "../assets/infografis/photo1.jpg";
 import infografis10 from "../assets/infografis/photo10.png";
-// import infografis11 from "../assets/infografis/photo11.jpg";
 import infografis12 from "../assets/infografis/photo12.jpg";
 import infografis13 from "../assets/infografis/photo13.jpg";
-// import infografis14 from "../assets/infografis/photo14.jpg";
 import infografis2 from "../assets/infografis/photo2.png";
 import infografis3 from "../assets/infografis/photo3.jpg";
 import infografis4 from "../assets/infografis/photo4.jpg";
@@ -16,6 +14,23 @@ import irigasiKomering1 from "../assets/irigasiKomering/photo1.jpg";
 import irigasiKomering2 from "../assets/irigasiKomering/photo2.jpg";
 import irigasiKomering3 from "../assets/irigasiKomering/photo3.jpg";
 import irigasiKomering4 from "../assets/irigasiKomering/photo4.jpg";
+
+// import infografis11 from "../assets/infografis/photo11.jpg";
+
+
+// import infografis14 from "../assets/infografis/photo14.jpg";
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const mockDataBendungan = {
   sections: [
