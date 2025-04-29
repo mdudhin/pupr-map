@@ -939,22 +939,22 @@ export const getMockData = (id: string) => {
 const photoGallery = [
   {
     url: irigasiKomering1,
-    description: "Photo Desc",
+    description: "Bendung Perjaya",
     date: "2024-08-06", // Updated to YYYY-MM-DD
   },
   {
     url: irigasiKomering2,
-    description: "Photo Desc",
+    description: "Bendung Perjaya",
     date: "2024-08-06",
   },
   {
     url: irigasiKomering3,
-    description: "Photo Desc",
+    description: "Bendung Perjaya",
     date: "2024-08-06",
   },
   {
     url: irigasiKomering4,
-    description: "Photo Desc",
+    description: "Bendung Perjaya",
     date: "2024-08-06",
   },
 ];
@@ -962,17 +962,17 @@ const photoGallery = [
 const videoGallery = [
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/DJI_0796.MP4",
-    title: "Video kegiatan pekerjaan",
+    title: "Kegiatan Pekerjaan Bendungan Tiga Dihaji",
     date: "2024-07-01", // Updated to YYYY-MM-DD
   },
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/update%20drone%20view%20per%2025%20Juli.mp4",
-    title: "Video kegiatan pekerjaan",
+    title: "Proyek Pembangunan Jaringan Irigasi D.I Lematang Phase II Paket I",
     date: "2024-07-25",
   },
   {
     url: "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/video/BELITANG%2029%20JULI.mp4",
-    title: "Video kegiatan pekerjaan",
+    title: "Kegiatan Pekerjaan Paket III Belitang",
     date: "2024-07-29",
   },
   // {
