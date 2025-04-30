@@ -224,11 +224,6 @@ export const mockDataBendungan = {
       date: "2024-12-27",
     },
     {
-      url: "https://www.youtube.com/embed/jODW_3CXoNs?si=CpJx8KIiWUj4Zd52",
-      title: "Dokumentasi Pelaksanaan Pembangunan Bendungan Tigadihaji Kab. Oku Selatan 2024",
-      date: "2024-12-27",
-    },
-    {
       url: "https://www.youtube.com/embed/kbSiANA11As?si=lxseQaqZmPCwJSQi",
       title: "Video Kegiatan Pekerjaan Timbunan Urugan Batu Tubuh Bendungan Paket 1 & 2",
       date: "2024-08-12",
