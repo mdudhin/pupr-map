@@ -11,9 +11,34 @@ import infografis7 from "../assets/infografis/photo7.png";
 import infografis8 from "../assets/infografis/photo8.png";
 import infografis9 from "../assets/infografis/photo9.png";
 import irigasiKomering1 from "../assets/irigasiKomering/photo1.jpg";
+import irigasiKomering10 from "../assets/irigasiKomering/photo10.jpeg";
+import irigasiKomering11 from "../assets/irigasiKomering/photo11.jpeg";
+import irigasiKomering12 from "../assets/irigasiKomering/photo12.jpeg";
+import irigasiKomering13 from "../assets/irigasiKomering/photo13.jpeg";
+import irigasiKomering14 from "../assets/irigasiKomering/photo14.jpeg";
+import irigasiKomering15 from "../assets/irigasiKomering/photo15.jpeg";
+import irigasiKomering16 from "../assets/irigasiKomering/photo16.jpeg";
+import irigasiKomering17 from "../assets/irigasiKomering/photo17.jpeg";
+import irigasiKomering18 from "../assets/irigasiKomering/photo18.jpeg";
+import irigasiKomering19 from "../assets/irigasiKomering/photo19.jpeg";
 import irigasiKomering2 from "../assets/irigasiKomering/photo2.jpg";
+import irigasiKomering20 from "../assets/irigasiKomering/photo20.jpeg";
+import irigasiKomering21 from "../assets/irigasiKomering/photo21.jpeg";
+import irigasiKomering22 from "../assets/irigasiKomering/photo22.jpeg";
+import irigasiKomering23 from "../assets/irigasiKomering/photo23.jpeg";
+import irigasiKomering24 from "../assets/irigasiKomering/photo24.jpeg";
+import irigasiKomering25 from "../assets/irigasiKomering/photo25.jpeg";
+import irigasiKomering26 from "../assets/irigasiKomering/photo26.jpeg";
+import irigasiKomering27 from "../assets/irigasiKomering/photo27.jpeg";
+import irigasiKomering28 from "../assets/irigasiKomering/photo28.jpeg";
+import irigasiKomering29 from "../assets/irigasiKomering/photo29.jpeg";
 import irigasiKomering3 from "../assets/irigasiKomering/photo3.jpg";
 import irigasiKomering4 from "../assets/irigasiKomering/photo4.jpg";
+import irigasiKomering5 from "../assets/irigasiKomering/photo5.jpeg";
+import irigasiKomering6 from "../assets/irigasiKomering/photo6.jpeg";
+import irigasiKomering7 from "../assets/irigasiKomering/photo7.jpeg";
+import irigasiKomering8 from "../assets/irigasiKomering/photo8.jpeg";
+import irigasiKomering9 from "../assets/irigasiKomering/photo9.jpeg";
 
 // import infografis11 from "../assets/infografis/photo11.jpg";
 
@@ -957,6 +982,132 @@ const photoGallery = [
     description: "Bendung Perjaya",
     date: "2024-08-06",
   },
+  {
+    url: irigasiKomering5,
+    description: "Kepala BBWS Sumatera VIII Bersama Gubernur Sumatera Selatan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering6,
+    description: "Kepala BBWS Sumatera VIII Bersama Gubernur Sumatera Selatan dan Walikota Palembang",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering7,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering8,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering9,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII bersama Gubernur Sumatera Selatan sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering10,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII bersama Gubernur Sumatera Selatan sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering11,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering12,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering13,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering14,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering15,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang koordinasi bersama Gubernur Sumatera Selatan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering16,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering17,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII beserta jajaran melakukan sesi foto bersama Gubernur Sumatera Selatan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering18,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII bersama Gubernur Sumatera Selatan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering19,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering20,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering21,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering22,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering23,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering24,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering25,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering26,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering27,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering28,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+  {
+    url: irigasiKomering29,
+    description: "Kepala Balai Besar Wilayah Sungai Sumatera VIII sedang meninjau di lokasi pekerjaan",
+    date: "2025-04-07",
+  },
+
 ];
 
 const videoGallery = [
