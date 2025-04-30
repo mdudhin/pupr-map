@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import bg from "../../assets/bg.mp4";
+import bmkg from "../../assets/bmkg.jpg"
 import hidrologi from "../../assets/E_HIDROLOGI.png";
 import logo from "../../assets/logo.png";
 import news from "../../assets/logoportal.png"
@@ -48,7 +49,7 @@ const Dashboard: React.FC = () => {
         <h1 className="text-white font-bold text-5xl mb-20 text-center flex flex-col gap-2">
           <span>PUSDATERA-S8</span>
           <span>PUSAT DATA TERPADU SUMATERA VIII</span>
-          <span className="italic text-3xl">"Pelayanan Prima Melalui Transformasi Digital"</span>
+          <span className="italic text-3xl">"Mewujudkan Pelayanan Prima Melalui Integrasi Digital"</span>
         </h1>
         <div className="flex flex-row gap-9">
           <div
@@ -119,17 +120,15 @@ const Dashboard: React.FC = () => {
             className="flex flex-col items-center gap-1"
             onClick={() => {
               window.location.href =
-                "https://www.windy.com/-2.989/104.757?clouds,-3.611,104.757,8";
+                "https://www.bmkg.go.id/cuaca/prakiraan-cuaca/16.71.15.1001";
             }}
           >
             <img
-              src={
-                "https://mediabbwssviii.sgp1.cdn.digitaloceanspaces.com/image/WindyCzesh.jpg"
-              }
+              src={bmkg}
               className="shadow-md rounded-md w-16 cursor-pointer"
             />
             <span className="text-white font-semibold w-16 text-center text-xs">
-              Prakiraan Cuaca (Windy)
+              BMKG Kota Palembang
             </span>
           </div>
           <div
