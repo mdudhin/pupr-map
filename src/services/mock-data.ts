@@ -214,6 +214,11 @@ export const mockDataBendungan = {
   ],
   video: [
     {
+      url: "https://www.youtube.com/embed/WuoVNWBrzCw?si=pNDdIte4Dm4ULtYW",
+      title: "Proyek Pembangunan Bendungan Tigadihaji",
+      date: "2025-05-02",
+    },
+    {
       url: "https://www.youtube.com/embed/jODW_3CXoNs?si=u4BOLEMHMfV-eywX",
       title: "Dokumentasi Pelaksanaan Pembangunan Bendungan Tigadihaji Kab. Oku Selatan 2024",
       date: "2024-12-27",
@@ -938,6 +943,16 @@ export const mockDataIrigasiKomering = {
     },
   ],
   video: [
+    {
+      url: "https://www.youtube.com/embed/w6sJi1c1klU?si=jvy9sAKzdTkI1Mbs",
+      title: "Video Kegiatan Pekerjaan Komering Irrigation Project Paket 3",
+      date: "2025-05-02",
+    },
+    {
+      url: "https://www.youtube.com/embed/sXD4iY321Fg?si=kit2mZ7N9pWKQkBj",
+      title: "Video Kegiatan Pekerjaan Komering Irrigation Project Paket 2",
+      date: "2025-05-02",
+    },
     {
       url: "https://www.youtube.com/embed/6DeVoMI8_68?si=FHvG1DdPkvviUfWR",
       title: "Video Kegiatan Pekerjaan Komering Irrigation Project Paket 2",
