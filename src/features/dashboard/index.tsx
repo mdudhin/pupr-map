@@ -48,7 +48,7 @@ const Dashboard: React.FC = () => {
         <img src={logo} className="shadow-md rounded-md w-36" />
         <h1 className="text-white font-bold text-5xl mb-20 text-center flex flex-col gap-2">
           <span>PUSDATERA-S8</span>
-          <span>PUSAT DATA TERPADU SUMATERA VIII</span>
+          <span>PUSAT DATA INFORMASI TERPADU SUMATERA VIII</span>
           <span className="italic text-3xl">"Mewujudkan Pelayanan Prima Melalui Integrasi Digital"</span>
         </h1>
         <div className="flex flex-row gap-9">
