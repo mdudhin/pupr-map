@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 
 import bg from "../../assets/bg.mp4";
-import bmkg from "../../assets/bmkg.jpg"
+import bmkg from "../../assets/bmkg.jpg";
 import hidrologi from "../../assets/E_HIDROLOGI.png";
 import logo from "../../assets/logo.png";
-import news from "../../assets/logoportal.png"
+import news from "../../assets/logoportal.png";
 import simadu from "../../assets/LOGO SIMADU.png";
+import informasi from "../../assets/informasip.jpeg";
 import { useNavigate } from "react-router-dom";
 import visitingPoint from "../../assets/VISITING_POINT.png";
 import wrdc from "../../assets/WRDC.png";
@@ -49,7 +50,9 @@ const Dashboard: React.FC = () => {
         <h1 className="text-white font-bold text-5xl mb-20 text-center flex flex-col gap-2">
           <span>PUSDATERA-S8</span>
           <span>PUSAT DATA INFORMASI TERPADU SUMATERA VIII</span>
-          <span className="italic text-3xl">"Mewujudkan Pelayanan Prima Melalui Integrasi Digital"</span>
+          <span className="italic text-3xl">
+            "Mewujudkan Pelayanan Prima Melalui Integrasi Digital"
+          </span>
         </h1>
         <div className="flex flex-row gap-9">
           <div
@@ -132,17 +135,29 @@ const Dashboard: React.FC = () => {
             </span>
           </div>
           <div
-          className="flex flex-col items-center gap-1" 
-          onClick={() => {
-            window.location.href = 
-              "https://bbwssumatera8.com";
-          }}
+            className="flex flex-col items-center gap-1"
+            onClick={() => {
+              window.location.href = "https://bbwssumatera8.com";
+            }}
           >
-            <img src={news}
-            className="shadow-md rounded-md w-16 cursor-pointer" 
+            <img
+              src={news}
+              className="shadow-md rounded-md w-16 cursor-pointer"
             />
-             <span className="text-white font-semibold w-16 text-center text-xs">
+            <span className="text-white font-semibold w-16 text-center text-xs">
               Website BBWS Sumatera VIII
+            </span>
+          </div>
+          <div
+            className="flex flex-col items-center gap-1"
+            onClick={() => navigate("/informasi-publik")}
+          >
+            <img
+              src={informasi}
+              className="shadow-md rounded-md w-16 cursor-pointer"
+            />
+            <span className="text-white font-semibold w-16 text-center text-xs">
+              Informasi Publik
             </span>
           </div>
         </div>
