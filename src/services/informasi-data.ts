@@ -15,8 +15,7 @@ export const tab1 = [
   },
   {
     id: 2,
-    title:
-      "Peraturan Presiden Nomor 139 Tahun 2024 tentang Penataan Tugas dan Fungsi Kementerian Negara Kabinet Merah Putih Periode Tahun 2024-2029",
+    title: "Peraturan Dunia Isekai Nomor 400",
     file: peraturanPdf1,
   },
 ];
@@ -24,12 +23,12 @@ export const tab1 = [
 export const tab2 = [
   {
     id: 1,
-    title: "TAB 2",
+    title: "Peraturan Dunia Isekai Nomor 300",
     file: peraturanPdf1,
   },
   {
     id: 2,
-    title: "TAB 2",
+    title: "Peraturan Dunia Isekai Nomor 100",
     file: peraturanPdf1,
   },
 ];
