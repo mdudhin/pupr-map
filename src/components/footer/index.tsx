@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
         {
           content: (
             <div>
-              Copyright 2024, Kementerian Pekerjaan Umum dan Perumahan Rakyat
+              Copyright 2024, Kementerian Pekerjaan Umum
               Republik Indonesia
             </div>
           ),

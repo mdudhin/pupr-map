@@ -59,7 +59,7 @@ const Navbar: React.FC<NavbarProps> = ({
               <div className="flex flex-col uppercase text-indigo">
                 <span className="text-sm">BBWS Sumatera VIII</span>
                 <span className="text-xs">
-                  Kementerian Pekerjaan Umum dan Perumahan Rakyat
+                  Kementerian Pekerjaan Umum
                 </span>
               </div>
             </Link>

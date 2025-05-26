@@ -1,12 +1,13 @@
+import { Peraturan, tab1, tab10, tab11, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 } from "../../services/informasi-data";
+
 import { CustomTabs } from "../../components/tabs";
 import bgScreen from "../../assets/bendungan.jpg";
-import { tab1, Peraturan, tab2 } from "../../services/informasi-data";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const PublicInformationPage = () => {
   const navigate = useNavigate();
-  const allData: Peraturan[] = [...tab1, ...tab2];
+  const allData: Peraturan[] = [...tab1, ...tab2, ...tab3, ...tab4, ...tab5, ...tab6, ...tab7, ...tab8, ...tab9, ...tab10, ...tab11];
   const [searchData, setSearchData] = useState<Peraturan[]>([]);
   const [search, setSearch] = useState("");
 
@@ -30,7 +31,7 @@ const PublicInformationPage = () => {
 
   const tabs = [
     {
-      trigger: <span>PERATURAN</span>,
+      trigger: <span>STUDI BBWS SUMATERA VIII</span>,
       value: "peraturan",
       content: (
         <ol className="m-5 space-y-2 flex flex-col items-start">
@@ -51,11 +52,200 @@ const PublicInformationPage = () => {
       ),
     },
     {
+      trigger: <span>SKEMA SUNGAI</span>,
+      value: "skema-sungai",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab2.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>DOKUMEN RBO</span>,
+      value: "rbo",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab3.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>MANAJEMEN RESIKO</span>,
+      value: "manajemen-resiko",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab4.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>SOP</span>,
+      value: "sop",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab5.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>SKEMA MODERNISASI</span>,
+      value: "skema-modernisasi",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab6.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>RAAT</span>,
+      value: "raat",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab7.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>JARINGAN IRIGASI</span>,
+      value: "jaringan-irigasi",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab8.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>PROSES LELANG</span>,
+      value: "proses-lelang",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab9.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
+      trigger: <span>EPAKSI</span>,
+      value: "epaksi",
+      content: (
+        <ol className="m-5 space-y-2 flex flex-col items-start">
+          {tab10.map((item: Peraturan, index: number) => (
+            <button
+              key={item.id}
+              className="cursor-pointer"
+              onClick={() =>
+                navigate("detail", {
+                  state: { data: item },
+                })
+              }
+            >
+              {index + 1}. {item.title}
+            </button>
+          ))}
+        </ol>
+      ),
+    },
+    {
       trigger: <span>PERUNDANG-UNDANGAN</span>,
       value: "perundang-undangan",
       content: (
         <ol className="m-5 space-y-2 flex flex-col items-start">
-          {tab2.map((item: Peraturan, index: number) => (
+          {tab11.map((item: Peraturan, index: number) => (
             <button
               key={item.id}
               className="cursor-pointer"
